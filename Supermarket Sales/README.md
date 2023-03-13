@@ -19,6 +19,10 @@ LIMIT 5;
 
 | InvoiceID | Branch | City | Customertype |Gender | Productline | Unitprice | Quantity | Tax5% | Total | Date | Time | Payment | Cogs | grossmarginpercentage | Grossincome | Rating |
 
+| InvoiceID | Branch |
+| --------- | ------ |
+| 122.      |.  213. |
+
 
 SELECT COUNT(*) as total_records,<br />
        COUNT(DISTINCT city) as unique_cities,<br />
