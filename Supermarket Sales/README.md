@@ -34,7 +34,7 @@ Rating: Customer stratification rating on their overall shopping experience (On 
 
 ## Objective: Analyzing the sales data to understand sales trends and customer behavior!
 
-**Data Exploration:** First, explore the data to understand its structure and relationships. Use SQL queries to extract basic information such as number of records, unique values, and data types.
+**Data Exploration:** First, I explored the data to understand it's structure and relationships. I used SQL queries to extract basic information such as number of records, unique values, and data types.
 
 SELECT * <br />
 FROM sales <br />
@@ -57,7 +57,7 @@ FROM sales;
 
 [Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Supermarket%20Sales/Queries.txt)
 
-**Sales Analysis:** Use SQL queries to analyze the sales data and understand sales trends. For example, you can analyze the sales by city, customer type, gender, and date to identify which factors have the most impact on sales.
+**Sales Analysis:** I used SQL queries to analyze the sales data and understand sales trends. For example, I could analyze the sales by city, customer type, gender, and date to identify which factors have the most impact on sales.
 
 
 
