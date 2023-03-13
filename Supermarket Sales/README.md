@@ -11,3 +11,20 @@ The project will be documented in a clear and concise manner, with detailed expl
 ## Objective: Analyzing the sales data to understand sales trends and customer behavior!
 [Data Used](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
+**Data Exploration:** First, explore the data to understand its structure and relationships. Use SQL queries to extract basic information such as number of records, unique values, and data types.
+
+SELECT *
+FROM sales
+LIMIT 5;
+
+SELECT COUNT(*) as total_records,
+       COUNT(DISTINCT city) as unique_cities,
+       COUNT(DISTINCT customertype) as unique_customers,
+       COUNT(DISTINCT gender) as unique_genders,
+       MIN(date) as min_date,
+       MAX(date) as max_date
+FROM sales;
+
+
+
+
