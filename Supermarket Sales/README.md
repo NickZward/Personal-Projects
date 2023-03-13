@@ -13,8 +13,8 @@ The project will be documented in a clear and concise manner, with detailed expl
 
 **Data Exploration:** First, explore the data to understand its structure and relationships. Use SQL queries to extract basic information such as number of records, unique values, and data types.
 
-SELECT *
-FROM sales
+SELECT * <br />
+FROM sales <br />
 LIMIT 5;
 
 SELECT COUNT(*) as total_records,
