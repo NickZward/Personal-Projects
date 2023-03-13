@@ -28,6 +28,8 @@ SELECT COUNT(*) as total_records,<br />
        MAX(date) as max_date<br />
 FROM sales;
 
+[Queries used](https://github.com/NickZward/Nanodegree-Data-Analyst/blob/master/Project%201/Project%201%20report.pdf)
+
 
 
 
