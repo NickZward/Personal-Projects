@@ -9,9 +9,9 @@ By using SQL, we can efficiently query and analyze large datasets, which is esse
 The project will be documented in a clear and concise manner, with detailed explanations of the SQL queries used and the insights gained. This will allow for easy replication of the analysis and help others to understand the value of using SQL for analyzing sales data.
 
 ## About the dataset
-The growth of supermarkets in most populated cities are increasing and market competitions are also high. The dataset is one of the historical sales of supermarket company which has recorded in 3 different branches for 3 months data.
+The growth of supermarkets in most populated cities are increasing and market competitions are also high. The dataset is one of the historical sales of a supermarket company which has recorded in 3 different branches for 3 months data.
 
-**Attribute information**
+**Attribute information**<br />
 Invoice id: Computer generated sales slip invoice identification number<br />
 Branch: Branch of supercenter (3 branches are available identified by A, B and C)<br />
 City: Location of supercenters<br />
