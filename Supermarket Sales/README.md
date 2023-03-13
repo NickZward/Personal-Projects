@@ -57,6 +57,7 @@ FROM sales;
 
 [Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Supermarket%20Sales/Queries.txt)
 
+**Sales Analysis:** Use SQL queries to analyze the sales data and understand sales trends. For example, you can analyze the sales by city, customer type, gender, and date to identify which factors have the most impact on sales.
 
 
 
