@@ -17,7 +17,7 @@ SELECT * <br />
 FROM sales <br />
 LIMIT 5;
 
-|InvoiceID|Branch|City|Customertype|Gender|Productline|Unitprice|Quantity|Tax5%|Total|Date|Time|Payment|Cogs|grossmarginpercentage|Grossincome|Rating
+| InvoiceID | Branch | City | Customertype |Gender | Productline | Unitprice | Quantity | Tax5% | Total | Date | Time | Payment | Cogs | grossmarginpercentage | Grossincome | Rating |
 
 
 SELECT COUNT(*) as total_records,<br />
