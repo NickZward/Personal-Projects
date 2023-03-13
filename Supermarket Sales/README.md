@@ -51,6 +51,10 @@ SELECT COUNT(*) as total_records,<br />
        MAX(date) as max_date<br />
 FROM sales;
 
+| total_records | unique_cities | unique_customers | unique_genders | min_date | max_date|
+| ------------- | ------------- | ---------------- | -------------- | -------- | ------- |
+| 1000          | 3             | 2                | 2              | 1/1/2019 | 3/9/2019|
+
 [Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Supermarket%20Sales/Queries.txt)
 
 
