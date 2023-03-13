@@ -17,12 +17,12 @@ SELECT * <br />
 FROM sales <br />
 LIMIT 5;
 
-SELECT COUNT(*) as total_records,
-       COUNT(DISTINCT city) as unique_cities,
-       COUNT(DISTINCT customertype) as unique_customers,
-       COUNT(DISTINCT gender) as unique_genders,
-       MIN(date) as min_date,
-       MAX(date) as max_date
+SELECT COUNT(*) as total_records,<br />
+       COUNT(DISTINCT city) as unique_cities,<br />
+       COUNT(DISTINCT customertype) as unique_customers,<br />
+       COUNT(DISTINCT gender) as unique_genders,<br />
+       MIN(date) as min_date,<br />
+       MAX(date) as max_date<br />
 FROM sales;
 
 
