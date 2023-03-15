@@ -12,7 +12,7 @@ such as Tableau or Power BI. The final report will present insights and recommen
 food enthusiasts, and tourists make informed decisions.
 
 ## About the dataset:
-**Attribute information**<br />
+**Attribute information:**<br />
 Restaurant:                   Restaurant name is displayed here<br />
 Details URL:                  This is the URLfrom which data is aquired<br />
 Address:                      Address of the restaurant<br />
