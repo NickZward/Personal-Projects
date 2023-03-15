@@ -61,7 +61,7 @@ FROM sales;
 | ------------- | ------------- | ---------------- | -------------- | -------- | ------- |
 | 1000          | 3             | 2                | 2              | 1/1/2019 | 3/9/2019|
 
-**Sales Analysis:** <br />
+### **Sales Analysis:** <br />
 I used SQL queries to analyze the sales data and understand sales trends. For example, I could analyze the sales by city, customer type, gender, and date to identify which factors have the most impact on sales.
 
 **Total sales by city**<br />
@@ -102,7 +102,7 @@ LIMIT 5;
 | 1/12/2019     | 5184.764      |
 | 1/13/2019     | 2451.204      |
 
-**Customer Analysis:** <br />
+### **Customer Analysis:** <br />
 I used SQL queries to analyze customer behavior and preferences. For example, I analyzed the sales by customer type, gender, and rating to understand which factors influence customer behavior.
 
 **Total sales by customer type and gender**<br />
@@ -129,7 +129,7 @@ GROUP BY customertype, gender;
 | Normal        | Female   | 6.99        |
 | Normal        | Male     | 7.02        |
 
-**Gross Income Analysis:** <br />
+### **Gross Income Analysis:** <br />
 I used SQL queries to analyze the gross income from sales. For example, I can analyze the gross income by date, payment method, and customer type to understand which factors have the most impact on gross income.
 
 **Total gross income by date**<br />
