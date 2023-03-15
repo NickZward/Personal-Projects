@@ -60,9 +60,50 @@ FROM sales;
 | ------------- | ------------- | ---------------- | -------------- | -------- | ------- |
 | 1000          | 3             | 2                | 2              | 1/1/2019 | 3/9/2019|
 
+**Sales Analysis:** <br />
+I used SQL queries to analyze the sales data and understand sales trends. For example, I could analyze the sales by city, customer type, gender, and date to identify which factors have the most impact on sales.
+
+**Total sales by city**<br />
+SELECT city, SUM(total) as total_sales<br />
+FROM sales<br />
+GROUP BY city<br />
+ORDER BY total_sales DESC;
+
+| City          | Total_sales   | 
+| ------------- | ------------- | 
+| Naypyitaw     | 110568.7065   |
+| Yangon        | 106200.3705   |
+| Mandalay      | 106197.672    |
+ 
+**Average sales by customer type and gender**<br />
+SELECT customertype, gender, AVG(total) as avg_sales<br />
+FROM sales<br />
+GROUP BY customertype, gender;
+
+| Customertype  | Gender   | Avg_sales |
+| ------------- | -------- | --------- |
+| Memeber       | Female   | 337.728   |
+| Memeber       | Male     | 316.985   |
+| Normal        | Female   | 332.233   |
+| Normal        | Male     | 305.048   |
+ 
+**Total sales by date**<br />
+SELECT date, SUM(total) as total_sales<br />
+FROM sales<br />
+GROUP BY date<br />
+LIMIT 5;
+
+| Date          | Total_sales   | 
+| ------------- | ------------- | 
+| 1/1/2019      | 4745.181      |
+| 1/10/2019     | 3560.949      |
+| 1/11/2019     | 2114.963      |
+| 1/12/2019     | 5184.764      |
+| 1/13/2019     | 2451.204      |
+
+**Customer Analysis:** <br />
+I used SQL queries to analyze customer behavior and preferences. For example, I analyzed the sales by customer type, gender, and rating to understand which factors influence customer behavior.
+
 [Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Supermarket%20Sales/Queries.txt)
-
-**Sales Analysis:** I used SQL queries to analyze the sales data and understand sales trends. For example, I could analyze the sales by city, customer type, gender, and date to identify which factors have the most impact on sales.
-
 
 
