@@ -34,7 +34,8 @@ Rating: Customer stratification rating on their overall shopping experience (On 
 
 ## Objective: Analyzing the sales data to understand sales trends and customer behavior!
 
-**Data Exploration:** First, I explored the data to understand it's structure and relationships. I used SQL queries to extract basic information such as number of records, unique values, and data types.
+### **Data Exploration:**<br /> 
+First, I explored the data to understand it's structure and relationships. I used SQL queries to extract basic information such as number of records, unique values, and data types.
 
 SELECT * <br />
 FROM sales <br />
