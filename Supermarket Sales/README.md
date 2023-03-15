@@ -1,4 +1,4 @@
-# Project 1: Supermarket sales.
+# Project 1: Supermarket sales
 
 This project aims to analyze supermarket sales data to gain insights into sales trends and customer behavior using SQL. SQL (Structured Query Language) is a powerful tool for managing and querying large datasets, making it an ideal method for analyzing data.
 
@@ -8,7 +8,7 @@ By using SQL, we can efficiently query and analyze large datasets, which is esse
 
 The project will be documented in a clear and concise manner, with detailed explanations of the SQL queries used and the insights gained. This will allow for easy replication of the analysis and help others to understand the value of using SQL for analyzing sales data.
 
-## About the dataset
+## About the dataset:
 The growth of supermarkets in most populated cities are increasing and market competitions are also high. The dataset is one of the historical sales of a supermarket company which has recorded in 3 different branches for 3 months data.
 
 |Column Name                | Description                                                                                                   |
