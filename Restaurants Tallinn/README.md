@@ -13,16 +13,16 @@ food enthusiasts, and tourists make informed decisions.
 
 ## About the dataset:
 **Attribute information:**<br />
-Restaurant:                   Restaurant name is displayed here<br />
-Details URL:                  This is the URLfrom which data is aquired<br />
-Address:                      Address of the restaurant<br />
-Cuisine:                      Comma list of types of cuisine served<br />
-Avg_Bill:                     Average bill (float), estimated<br />
-Additional:                   List of properties that the venue has<br />
-Atmosphere:                   Atmosphere rating 1-5, float<br />
-Food:                         Food rating 1-5, float<br />
-Service:                      Service rating 1-5, float<br />
-Latitude:                     Latitude of venue<br />
-Longitude:                    Longitude of venue<br />
+|Restaurant:                   |Restaurant name is displayed here             |
+|Details URL:                  |This is the URLfrom which data is aquired     |
+|Address:                      |Address of the restaurant                     |
+|Cuisine:                      |Comma list of types of cuisine served
+|Avg_Bill:                     |Average bill (float), estimated
+|Additional:                   |List of properties that the venue has
+|Atmosphere:                   |Atmosphere rating 1-5, float
+|Food:                         |Food rating 1-5, float
+|Service:                      |Service rating 1-5, float
+|Latitude:                     |Latitude of venue
+|Longitude:                    |Longitude of venue
 
 [Data Used](https://www.kaggle.com/datasets/ilyasmelyanskiy/tallinn-restaurants)
