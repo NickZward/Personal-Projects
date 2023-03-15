@@ -4,8 +4,7 @@ The project aims to analyze data related to restaurants in Tallinn, Estonia. The
 Cuisine type, Average bill, Atmosphere, Food quality, Service rating, and Geographical coordinates (latitude and longitude).
 
 The analysis will focus on exploring various aspects of the restaurant industry in Tallinn, such as popular cuisine types, average bills, 
-customer satisfaction ratings, and more. The data will be extracted, transformed, and loaded into a relational database management system such 
-as MySQL or PostgreSQL.
+customer satisfaction ratings, and more. The data will be extracted, transformed, and loaded into the relational database management system called MySQL.
 
 The project will involve several steps such as cleaning the data, creating tables, running queries, and visualizing the results using tools 
 such as Tableau or Power BI. The final report will present insights and recommendations based on the analysis, which can help restaurant owners, 
