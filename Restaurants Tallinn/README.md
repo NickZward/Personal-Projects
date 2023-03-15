@@ -1,4 +1,4 @@
-# Project 2: Restaurants Tallinn.
+# Project 2: Restaurants Tallinn
 
 The project aims to analyze data related to restaurants in Tallinn, Estonia. The dataset includes several columns such as Restaurant name, Address, 
 Cuisine type, Average bill, Atmosphere, Food quality, Service rating, and Geographical coordinates (latitude and longitude).
