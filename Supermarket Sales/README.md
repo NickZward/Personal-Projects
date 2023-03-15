@@ -11,24 +11,25 @@ The project will be documented in a clear and concise manner, with detailed expl
 ## About the dataset
 The growth of supermarkets in most populated cities are increasing and market competitions are also high. The dataset is one of the historical sales of a supermarket company which has recorded in 3 different branches for 3 months data.
 
-**Attribute information**<br />
-Invoice id: Computer generated sales slip invoice identification number<br />
-Branch: Branch of supercenter (3 branches are available identified by A, B and C)<br />
-City: Location of supercenters<br />
-Customer type: Type of customers, recorded by Members for customers using member card and Normal for without member card<br />
-Gender: Gender type of customer<br />
-Product line: General item categorization groups - Electronic accessories, Fashion accessories, Food and beverages, Health and beauty, Home and lifestyle, Sports and travel<br />
-Unit price: Price of each product in $<br />
-Quantity: Number of products purchased by customer<br />
-Tax: 5% tax fee for customer buying<br />
-Total: Total price including tax<br />
-Date: Date of purchase (Record available from January 2019 to March 2019)<br />
-Time: Purchase time (10am to 9pm)<br />
-Payment: Payment used by customer for purchase (3 methods are available – Cash, Credit card and Ewallet)<br />
-COGS: Cost of goods sold<br />
-Gross margin percentage: Gross margin percentage<br />
-Gross income: Gross income<br />
-Rating: Customer stratification rating on their overall shopping experience (On a scale of 1 to 10)<br />
+|Column Name                | Description                                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------- |
+|Invoice id                 |Computer generated sales slip invoice identification number                                                    |
+|Branch                     | Branch of supercenter (3 branches are available identified by A, B and C)                                     |
+|City                       | Location of supercenters                                                                                      |
+|Customer type              | Type of customers, recorded by Members for customers using member card and Normal for without member card     |
+|Gender                     | Gender type of customer                                                                                       |
+|Product line               | General item categorization groups                                                                            |
+|Unit price                 | Price of each product in $                                                                                    |
+|Quantity                   | Number of products purchased by customer                                                                      |
+|Tax                        | 5% tax fee for customer buying                                                                                |
+|Total                      | Total price including tax                                                                                     |
+|Date                       | Date of purchase (Record available from January 2019 to March 2019)                                           |
+|Time                       | Purchase time (10am to 9pm)                                                                                   |
+|Payment                    | Payment used by customer for purchase (3 methods are available – Cash, Credit card and Ewallet)               |
+|COGS                       | Cost of goods sold                                                                                            |
+|Gross margin percentage    | Gross margin percentage                                                                                       |
+|Gross income               | Gross income                                                                                                  |
+|Rating                     | Customer stratification rating on their overall shopping experience (On a scale of 1 to 10)                   |
 
 [Data Used](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
