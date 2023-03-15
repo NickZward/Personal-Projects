@@ -12,8 +12,6 @@ such as Tableau or Power BI. The final report will present insights and recommen
 food enthusiasts, and tourists make informed decisions.
 
 ## About the dataset:
-The growth of supermarkets in most populated cities are increasing and market competitions are also high. The dataset is one of the historical sales of a supermarket company which has recorded in 3 different branches for 3 months data.
-
 **Attribute information**<br />
 Restaurant:                   Restaurant name is displayed here<br />
 Details URL:                  This is the URLfrom which data is aquired<br />
