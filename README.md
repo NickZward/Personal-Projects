@@ -16,3 +16,5 @@ The analysis will involve extracting the relevant data from the supermarket sale
 By using SQL, we can efficiently query and analyze large datasets, which is essential for gaining meaningful insights into sales trends and customer behavior. Additionally, using SQL allows for easy replication of the analysis, making it a valuable tool for businesses of all sizes.
 
 The project will be documented in a clear and concise manner, with detailed explanations of the SQL queries used and the insights gained. This will allow for easy replication of the analysis and help others to understand the value of using SQL for analyzing sales data.
+
+[Link to Project](https://github.com/NickZward/Nanodegree-Data-Analyst/blob/master/Project%201/Project%201%20report.pdf)
