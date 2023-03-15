@@ -104,6 +104,70 @@ LIMIT 5;
 **Customer Analysis:** <br />
 I used SQL queries to analyze customer behavior and preferences. For example, I analyzed the sales by customer type, gender, and rating to understand which factors influence customer behavior.
 
+**Total sales by customer type and gender**<br />
+SELECT customertype, gender, SUM(total) as total_sales<br />
+FROM sales<br />
+GROUP BY customertype, gender;
+
+| Customertype  | Gender   | Total_sales |
+| ------------- | -------- | ----------- |
+| Memeber       | Female   | 88146.9436  |
+| Memeber       | Male     | 76076.5005  |
+| Normal        | Female   | 79735.9815  |
+| Normal        | Male     | 79007.3235  |
+
+**Average rating by customer type and gender**<br />
+SELECT customertype, gender, AVG(rating) as avg_rating<br />
+FROM sales<br />
+GROUP BY customertype, gender;
+
+| Customertype  | Gender   | Avg_rating  |
+| ------------- | -------- | ----------- |
+| Memeber       | Female   | 6.94        |
+| Memeber       | Male     | 6.94        |
+| Normal        | Female   | 6.99        |
+| Normal        | Male     | 7.02        |
+
+**Gross Income Analysis:** <br />
+I used SQL queries to analyze the gross income from sales. For example, I can analyze the gross income by date, payment method, and customer type to understand which factors have the most impact on gross income.
+
+**Total gross income by date**<br />
+SELECT date, SUM(grossincome) as total_gross_income<br />
+FROM sales<br />
+GROUP BY date<br />
+LIMIT 5;
+
+| Date          | Total_gross_income | 
+| ------------- | ------------------ | 
+| 1/1/2019      | 225.961            |
+| 1/10/2019     | 169.569            |
+| 1/11/2019     | 100.712            |
+| 1/12/2019     | 246.894            |
+| 1/13/2019     | 116.724            |
+
+**Total gross income by payment method**<br />
+SELECT payment, SUM(grossincome) as total_gross_income<br />
+FROM sales<br />
+GROUP BY payment;
+
+| Payment     | total_gross_income | 
+| ----------- | ------------------ | 
+| Cash        | 5343.17            | 
+| Credit Card | 4798.43            | 
+| Ewallet     | 5237.77            | 
+
+**Total gross income by customer type**<br />
+SELECT customertype, SUM(grossincome) as total_gross_income<br />
+FROM sales<br />
+GROUP BY customertype;
+
+| Customertype | total_gross_income | 
+| ------------ | ------------------ | 
+| Member       | 7820.164           | 
+| Normal       | 7559.205           | 
+
+Overall, this project aims to showcase my SQL skills and ability to analyze and interpret data. I could use these queries to create interactive dashboards or visualizations to present my findings.
+
 [Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Supermarket%20Sales/Queries.txt)
 
 
