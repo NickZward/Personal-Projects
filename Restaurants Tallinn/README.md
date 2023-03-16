@@ -211,7 +211,7 @@ FROM restaurant_tallinn;
 | --------------------------- | ----------------------- | --------------------- |
 | 4.0                         | 3.9                     | 4.0                   |
 
-##Step 3: Visualizing the data:
+## Step 3: Visualizing the data:
 
 
 
