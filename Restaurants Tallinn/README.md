@@ -228,8 +228,13 @@ This is how the visualization turned out. If you open the visualization through 
 
 [Link to the visual](https://lookerstudio.google.com/s/n6p9O5GgmM0)
 
+Secondly I wanted to see where the restaurants were located who served the best rated food according to the data. Like before I had to concatenate the latitude and longitude first. I used this query to pull the relevant data out of the database.
 
+[Link to the visual]
 
+Lastly I wanted to see where the restaurants were located who were the most expensive according to the data. Like before I had to concatenate the latitude and longitude first. I used this query to pull the relevant data out of the database.
+
+[Link to the visual]
 
 
 
