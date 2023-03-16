@@ -217,7 +217,7 @@ FROM restaurant_tallinn;
 
 
 
-
+[Link to the visual] https://lookerstudio.google.com/s/n6p9O5GgmM0
 
 
 
