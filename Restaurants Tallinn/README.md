@@ -223,7 +223,7 @@ WHERE cuisine LIKE '%estonian%' OR cuisine LIKE '%european%';
 
 This is how the visualization turned out. If you open the visualization through the link provided below, you get taken to an interactive version of it.
 
-
+<img width="905" alt="Estonian   European cuisine" src="https://user-images.githubusercontent.com/29818091/225737773-7191084d-8039-4805-8914-d5fc9524e313.png">
 
 [Link to the visual](https://lookerstudio.google.com/s/n6p9O5GgmM0)
 
