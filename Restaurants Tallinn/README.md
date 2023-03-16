@@ -38,11 +38,11 @@ ALTER TABLE restaurant_tallinn RENAME COLUMN Restaraunt TO Restaurant;
 SQL is a powerful tool for data analysis that offers scalability, speed, flexibility, reproducibility, and visualization capabilities. By using SQL to analyze large datasets, it is possible to generate valuable insights that can inform decision-making and drive business growth.
 
 The first insight I analyzed was looking for specific cuisine offered in Tallinn. In the SQL query below I looked specifically for Italian restaurants. The kind of cuisine can easily be changed by modifying the SQL query below.
-
+```
 SELECT restaurant, cuisine<br />
 FROM restaurant_tallinn<br />
 WHERE cuisine LIKE '%italian%';
-
+```
 | Restaurant              | Cuisine|
 | ----------------------- | -------|
 | IO restaurant           | italian|
@@ -50,11 +50,11 @@ WHERE cuisine LIKE '%italian%';
 | Gianni                  | italian|
 
 Another useful insight could be looking for specific attributes of a restaurant. For example if I would go out for dinner with someone in a wheelchair I would like te see which restaurants are accissible for people in wheelchairs. The two queries down below show how this could be achieved.
-
+```
 SELECT restaurant, cuisine, additional<br />
 FROM restaurant_tallinn<br />
 WHERE additional LIKE '%wheelchair%';
-
+```
 | Restaurant              | Cuisine                   | Additional                                   |
 | ----------------------- | ------------------------- | -------------------------------------------- |
 | Al Mare Grill           | grill, european, american | wifi, internet, wheelchair access, catering  |
@@ -62,11 +62,11 @@ WHERE additional LIKE '%wheelchair%';
 | Argentiina (Lootsi 8)   | argentinian               | wifi, internet, wheelchair access, lounge    |
 | Charlies Corner         | international             | wifi, internet, wheelchair access, breakfast |
 | GC Gastrobar            | european, scandinavian    | wifi, internet, wheelchair access, live music|
-
+```
 SELECT restaurant, cuisine, additional<br />
 FROM restaurant_tallinn<br />
 WHERE additional LIKE '%sea view%' OR '%live music%';
-
+```
 | Restaurant               | Cuisine                   | Additional                                                            |
 | -----------------------  | ------------------------- | ----------------------------------------------------------------------|
 | Al Mare Grill            | grill, european, american | wifi, internet, wheelchair access, catering, live music, sea view     |
@@ -76,10 +76,11 @@ WHERE additional LIKE '%sea view%' OR '%live music%';
 A second useful insight could be looking for the average bill in case you want to spent a lot of money or not so much money. This could be achieved by using the queries down below.
 
 **Select all restaurants with an average bill greater than 15**<br />
+```
 SELECT restaurant, cuisine, avg_bill<br />
 FROM restaurant_tallinn<br />
 WHERE avg_bill > 15;
-
+```
 | Restaurant               | Cuisine                        | Avg_Bill  |
 | ------------------------ | ------------------------------ | --------- |
 | Argentiina (Parnu mnt.37 | argentinian                    | 18        |
@@ -89,10 +90,11 @@ WHERE avg_bill > 15;
 | Olde Hansa               | medieval                       | 18        |
 
 **Select all restaurants with an average bill between 5 and 15**<br />
+```
 SELECT restaurant, cuisine, avg_bill<br />
 FROM restaurant_tallinn<br />
 WHERE avg_bill BETWEEN 5 AND  15;
-
+```
 | Restaurant               | Cuisine                        | Avg_Bill  |
 | ------------------------ | ------------------------------ | --------- |
 | Hans                     | chinese, sichuan               | 12        |
@@ -102,11 +104,12 @@ WHERE avg_bill BETWEEN 5 AND  15;
 | KARBES Kitchen & Bar     | nordic                         | 12        |
 
 **Which are the top 10 restaurants with the highest average bill amount/**<br />
+```
 SELECT Restaurant, AVG_bill<br />
 FROM restaurant_tallinn<br />
 ORDER BY AVG_bill DESC<br />
 LIMIT 10;
-
+```
 | Restaurant               | Avg_Bill  |
 | ------------------------ | --------- |
 | Argentiina (Parnu mnt.37 | 18        |
@@ -123,12 +126,13 @@ LIMIT 10;
 You can also gain some useful insights looking at the ratings. The queries down below will show some examples on queries you could use to gain some insights looking at the ratings of a restaurant. There are three kind of ratings. Food, Service and Atmosphere.
 
 **Select the top 5 highest rated restaurants based on the average of their food, service, and atmosphere ratings**<br />
+```
 SELECT restaurant, food, service, atmosphere,<br />
     (food + service + atmosphere)/3 as rating_avg<br />
 FROM restaurant_tallinn<br />
 ORDER BY rating_avg DESC<br />
 LIMIT 5;
-
+```
 | Restaurant               | Food  | Service | Atmosphere | rating_avg |
 | ------------------------ | ----- | ------- | ---------- | ---------- |
 | Rae                      | 5.0   | 5.0     | 4.8        | 4.93       |
@@ -136,12 +140,12 @@ LIMIT 5;
 | MOON                     | 4.9   | 4.9     | 4.8        | 4.86       |
 | Rukis                    | 4.6   | 5.0     | 5.0        | 4.86       |
 | Chapters Boutique Cafe   | 4.7   | 4.9     | 4.9        | 4.83       |
-
+```
 SELECT cuisine, AVG((food + atmosphere + service) / 3) AS avg_overall_rating<br />
 FROM restaurant_tallinn<br />
 GROUP BY cuisine<br />
 ORDER BY avg_overall_rating DESC;
-
+```
 | Cuisine                  | rating_avg |
 | ------------------------ | ---------- |
 | fusion, european         | 4.83       | 
@@ -151,12 +155,13 @@ ORDER BY avg_overall_rating DESC;
 | italian                  | 4.72       |
 
 **Which are the top 5 cuisines with the highest average rating for food?**<br />
+```
 SELECT cuisine, AVG(food) AS avg_food_rating<br />
 FROM restaurant_tallinn<br />
 GROUP BY cuisine<br />
 ORDER BY avg_food_rating DESC<br />
 LIMIT 5;
-
+```
 | Cuisine                  | avg_food_rating |
 | ------------------------ | --------------- |
 | european, scandinavian   | 4.9             | 
@@ -166,12 +171,13 @@ LIMIT 5;
 | thai, indian             | 4.7             |
 
 **Which are the top 5 restaurants with the highest average rating for atmosphere?**<br />
+```
 SELECT restaurant, AVG(atmosphere) AS avg_atmosphere_rating<br />
 FROM restaurant_tallinn<br />
 GROUP BY restaurant<br />
 ORDER BY avg_atmosphere_rating DESC<br />
 LIMIT 5;
-
+```
 | Restaurant                  | avg_atmosphere_rating |
 | --------------------------- | --------------------- |
 | St.Patricks Foorum          | 5.0                   | 
@@ -181,6 +187,7 @@ LIMIT 5;
 | Olde Hansa                  | 4.9                   |
 
 **Which are the top restaurants with the highest overall rating per specific cuisine?**<br />
+```
 SELECT cuisine, restaurant, (food + atmosphere + service) / 3 AS avg_overall_rating<br />
 FROM restaurant_tallinn<br />
 WHERE (cuisine, (food + atmosphere + service) / 3) IN (<br />
@@ -189,7 +196,7 @@ WHERE (cuisine, (food + atmosphere + service) / 3) IN (<br />
     GROUP BY cuisine<br />
 )<br />
 ORDER BY cuisine, avg_overall_rating DESC;
-
+```
 | Cuisine                     | Restaurant              | avg_overall_rating |
 | --------------------------- | ----------------------- | ------------------ |
 | american, european          | SUSI Grill & Chill      | 4.7                |
@@ -202,12 +209,13 @@ ORDER BY cuisine, avg_overall_rating DESC;
 In the end I made a distribution of the average ratings to see what the avarage is across all these different rating.
 
 **What is the distribution of ratings for food, service, and atmosphere?**<br />
+```
 SELECT <br />
   ROUND(AVG(food), 1) AS avg_food_rating, <br />
   ROUND(AVG(service), 1) AS avg_service_rating, <br />
   ROUND(AVG(atmosphere), 1) AS avg_atmosphere_rating <br />
 FROM restaurant_tallinn;
-
+```
 | avg_food_rating             | avg_service_rating      | avg_atmosphere_rating |
 | --------------------------- | ----------------------- | --------------------- |
 | 4.0                         | 3.9                     | 4.0                   |
@@ -218,10 +226,11 @@ FROM restaurant_tallinn;
 I decided to visualize some of my findings since the data contained latitude and lonitude data. Visualizing some data can give some other perspectives in contrary to just a table. The first data I wanted to visualize were the restaurants serving estonian and european cuisine. Showing this on a map can help to make the search process easier, faster, and more engaging for users. It provides a visual representation of the location of each restaurant. I made this visualization using Google Looker Studio.
 
 In order to make this work I had to concatenate the latitude and longitude data first. I did this using the query below.<br />
+```
 SELECT restaurant, cuisine, latitude ||','||longitude as geo_location<br />
 FROM restaurant_tallinn<br />
 WHERE cuisine LIKE '%estonian%' OR cuisine LIKE '%european%';
-
+```
 This is how the visualization turned out. If you open the visualization through the link provided below, you get taken to an interactive version of it.
 
 <img width="905" alt="Estonian   European cuisine" src="https://user-images.githubusercontent.com/29818091/225737773-7191084d-8039-4805-8914-d5fc9524e313.png">
