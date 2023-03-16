@@ -39,8 +39,8 @@ SQL is a powerful tool for data analysis that offers scalability, speed, flexibi
 
 The first insight I analyzed was looking for specific cuisine offered in Tallinn. In the SQL query below I looked specifically for Italian restaurants. The kind of cuisine can easily be changed by modifying the SQL query below.
 ```
-SELECT restaurant, cuisine<br />
-FROM restaurant_tallinn<br />
+SELECT restaurant, cuisine
+FROM restaurant_tallinn
 WHERE cuisine LIKE '%italian%';
 ```
 | Restaurant              | Cuisine|
@@ -51,8 +51,8 @@ WHERE cuisine LIKE '%italian%';
 
 Another useful insight could be looking for specific attributes of a restaurant. For example if I would go out for dinner with someone in a wheelchair I would like te see which restaurants are accissible for people in wheelchairs. The two queries down below show how this could be achieved.
 ```
-SELECT restaurant, cuisine, additional<br />
-FROM restaurant_tallinn<br />
+SELECT restaurant, cuisine, additional
+FROM restaurant_tallinn
 WHERE additional LIKE '%wheelchair%';
 ```
 | Restaurant              | Cuisine                   | Additional                                   |
@@ -63,8 +63,8 @@ WHERE additional LIKE '%wheelchair%';
 | Charlies Corner         | international             | wifi, internet, wheelchair access, breakfast |
 | GC Gastrobar            | european, scandinavian    | wifi, internet, wheelchair access, live music|
 ```
-SELECT restaurant, cuisine, additional<br />
-FROM restaurant_tallinn<br />
+SELECT restaurant, cuisine, additional
+FROM restaurant_tallinn
 WHERE additional LIKE '%sea view%' OR '%live music%';
 ```
 | Restaurant               | Cuisine                   | Additional                                                            |
@@ -77,8 +77,8 @@ A second useful insight could be looking for the average bill in case you want t
 
 **Select all restaurants with an average bill greater than 15**<br />
 ```
-SELECT restaurant, cuisine, avg_bill<br />
-FROM restaurant_tallinn<br />
+SELECT restaurant, cuisine, avg_bill
+FROM restaurant_tallinn
 WHERE avg_bill > 15;
 ```
 | Restaurant               | Cuisine                        | Avg_Bill  |
@@ -91,8 +91,8 @@ WHERE avg_bill > 15;
 
 **Select all restaurants with an average bill between 5 and 15**<br />
 ```
-SELECT restaurant, cuisine, avg_bill<br />
-FROM restaurant_tallinn<br />
+SELECT restaurant, cuisine, avg_bill
+FROM restaurant_tallinn
 WHERE avg_bill BETWEEN 5 AND  15;
 ```
 | Restaurant               | Cuisine                        | Avg_Bill  |
@@ -105,9 +105,9 @@ WHERE avg_bill BETWEEN 5 AND  15;
 
 **Which are the top 10 restaurants with the highest average bill amount/**<br />
 ```
-SELECT Restaurant, AVG_bill<br />
-FROM restaurant_tallinn<br />
-ORDER BY AVG_bill DESC<br />
+SELECT Restaurant, AVG_bill
+FROM restaurant_tallinn
+ORDER BY AVG_bill DESC
 LIMIT 10;
 ```
 | Restaurant               | Avg_Bill  |
@@ -127,10 +127,10 @@ You can also gain some useful insights looking at the ratings. The queries down 
 
 **Select the top 5 highest rated restaurants based on the average of their food, service, and atmosphere ratings**<br />
 ```
-SELECT restaurant, food, service, atmosphere,<br />
-    (food + service + atmosphere)/3 as rating_avg<br />
-FROM restaurant_tallinn<br />
-ORDER BY rating_avg DESC<br />
+SELECT restaurant, food, service, atmosphere,
+    (food + service + atmosphere)/3 as rating_avg
+FROM restaurant_tallinn
+ORDER BY rating_avg DESC
 LIMIT 5;
 ```
 | Restaurant               | Food  | Service | Atmosphere | rating_avg |
@@ -141,9 +141,9 @@ LIMIT 5;
 | Rukis                    | 4.6   | 5.0     | 5.0        | 4.86       |
 | Chapters Boutique Cafe   | 4.7   | 4.9     | 4.9        | 4.83       |
 ```
-SELECT cuisine, AVG((food + atmosphere + service) / 3) AS avg_overall_rating<br />
-FROM restaurant_tallinn<br />
-GROUP BY cuisine<br />
+SELECT cuisine, AVG((food + atmosphere + service) / 3) AS avg_overall_rating
+FROM restaurant_tallinn
+GROUP BY cuisine
 ORDER BY avg_overall_rating DESC;
 ```
 | Cuisine                  | rating_avg |
@@ -156,10 +156,10 @@ ORDER BY avg_overall_rating DESC;
 
 **Which are the top 5 cuisines with the highest average rating for food?**<br />
 ```
-SELECT cuisine, AVG(food) AS avg_food_rating<br />
-FROM restaurant_tallinn<br />
-GROUP BY cuisine<br />
-ORDER BY avg_food_rating DESC<br />
+SELECT cuisine, AVG(food) AS avg_food_rating
+FROM restaurant_tallinn
+GROUP BY cuisine
+ORDER BY avg_food_rating DESC
 LIMIT 5;
 ```
 | Cuisine                  | avg_food_rating |
@@ -172,10 +172,10 @@ LIMIT 5;
 
 **Which are the top 5 restaurants with the highest average rating for atmosphere?**<br />
 ```
-SELECT restaurant, AVG(atmosphere) AS avg_atmosphere_rating<br />
-FROM restaurant_tallinn<br />
-GROUP BY restaurant<br />
-ORDER BY avg_atmosphere_rating DESC<br />
+SELECT restaurant, AVG(atmosphere) AS avg_atmosphere_rating
+FROM restaurant_tallinn
+GROUP BY restaurant
+ORDER BY avg_atmosphere_rating DESC
 LIMIT 5;
 ```
 | Restaurant                  | avg_atmosphere_rating |
@@ -188,13 +188,13 @@ LIMIT 5;
 
 **Which are the top restaurants with the highest overall rating per specific cuisine?**<br />
 ```
-SELECT cuisine, restaurant, (food + atmosphere + service) / 3 AS avg_overall_rating<br />
-FROM restaurant_tallinn<br />
-WHERE (cuisine, (food + atmosphere + service) / 3) IN (<br />
-    SELECT cuisine, MAX((food + atmosphere + service) / 3) AS max_overall_rating<br />
-    FROM restaurant_tallinn<br />
-    GROUP BY cuisine<br />
-)<br />
+SELECT cuisine, restaurant, (food + atmosphere + service) / 3 AS avg_overall_rating
+FROM restaurant_tallinn
+WHERE (cuisine, (food + atmosphere + service) / 3) IN 
+    SELECT cuisine, MAX((food + atmosphere + service) / 3) AS max_overall_rating
+    FROM restaurant_tallinn
+    GROUP BY cuisine
+)
 ORDER BY cuisine, avg_overall_rating DESC;
 ```
 | Cuisine                     | Restaurant              | avg_overall_rating |
@@ -210,10 +210,10 @@ In the end I made a distribution of the average ratings to see what the avarage 
 
 **What is the distribution of ratings for food, service, and atmosphere?**<br />
 ```
-SELECT <br />
-  ROUND(AVG(food), 1) AS avg_food_rating, <br />
-  ROUND(AVG(service), 1) AS avg_service_rating, <br />
-  ROUND(AVG(atmosphere), 1) AS avg_atmosphere_rating <br />
+SELECT 
+  ROUND(AVG(food), 1) AS avg_food_rating, 
+  ROUND(AVG(service), 1) AS avg_service_rating,
+  ROUND(AVG(atmosphere), 1) AS avg_atmosphere_rating 
 FROM restaurant_tallinn;
 ```
 | avg_food_rating             | avg_service_rating      | avg_atmosphere_rating |
@@ -227,8 +227,8 @@ I decided to visualize some of my findings since the data contained latitude and
 
 In order to make this work I had to concatenate the latitude and longitude data first. I did this using the query below.<br />
 ```
-SELECT restaurant, cuisine, latitude ||','||longitude as geo_location<br />
-FROM restaurant_tallinn<br />
+SELECT restaurant, cuisine, latitude ||','||longitude as geo_location
+FROM restaurant_tallinn
 WHERE cuisine LIKE '%estonian%' OR cuisine LIKE '%european%';
 ```
 This is how the visualization turned out. If you open the visualization through the link provided below, you get taken to an interactive version of it.
