@@ -214,6 +214,14 @@ FROM restaurant_tallinn;
 [Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Restaurants%20Tallinn/Queries.txt)
 
 ## Step 3: Visualizing the data:
+I decided to visualize some of my findings since the data contained latitude and lonitude data. Visualizing some data can give some other perspectives in contrary to just a table. The first data I wanted to visualize were the restaurants serving estonian and european cuisine. Showing this on a map can help to make the search process easier, faster, and more engaging for users. It provides a visual representation of the location of each restaurant. I made this visualization using Google Looker Studio.
+
+In order to make this work I had to concatenate the latitude and longitude data first. I did this using the query below.<br />
+SELECT restaurant, cuisine, latitude ||','||longitude as geo_location<br />
+FROM restaurant_tallinn<br />
+WHERE cuisine LIKE '%estonian%' OR cuisine LIKE '%european%';
+
+This is how the visualization turned out. If you open the visualization through the link provided below, you get taken to an interactive version of it.
 
 
 
