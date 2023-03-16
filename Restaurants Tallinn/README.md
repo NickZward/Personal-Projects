@@ -34,7 +34,6 @@ cleaning data columns in SQL is an important step in ensuring that the data is a
 ```
 ALTER TABLE restaurant_tallinn RENAME COLUMN Restaraunt TO Restaurant;
 ```
-
 ## Step 2: Looking for insights:
 SQL is a powerful tool for data analysis that offers scalability, speed, flexibility, reproducibility, and visualization capabilities. By using SQL to analyze large datasets, it is possible to generate valuable insights that can inform decision-making and drive business growth.
 
