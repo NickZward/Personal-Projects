@@ -211,7 +211,7 @@ FROM restaurant_tallinn;
 | --------------------------- | ----------------------- | --------------------- |
 | 4.0                         | 3.9                     | 4.0                   |
 
-[Queries used]()
+[Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Restaurants%20Tallinn/Queries.txt)
 
 ## Step 3: Visualizing the data:
 
