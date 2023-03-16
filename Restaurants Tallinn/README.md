@@ -211,6 +211,8 @@ FROM restaurant_tallinn;
 | --------------------------- | ----------------------- | --------------------- |
 | 4.0                         | 3.9                     | 4.0                   |
 
+[Queries used]()
+
 ## Step 3: Visualizing the data:
 
 
