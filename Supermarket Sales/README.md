@@ -37,10 +37,11 @@ The growth of supermarkets in most populated cities are increasing and market co
 
 ### **Data Exploration:**<br /> 
 First, I explored the data to understand it's structure and relationships. I used SQL queries to extract basic information such as number of records, unique values, and data types.
-
-SELECT * <br />
-FROM sales <br />
+~~
+SELECT * 
+FROM sales 
 LIMIT 5;
+~~
 
 | InvoiceID   | Branch| City    | Customertype | Gender | Productline | Unitprice | Quantity | Total  | Date    | Time | Payment | Grossincome | Rating|
 | ----------- | ------| ------- | ------------ | ------ | ----------- | --------- | -------- | -----  | ------- | ---- | ------- | ----------- | ------|
