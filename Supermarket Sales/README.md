@@ -37,11 +37,11 @@ The growth of supermarkets in most populated cities are increasing and market co
 
 ### **Data Exploration:**<br /> 
 First, I explored the data to understand it's structure and relationships. I used SQL queries to extract basic information such as number of records, unique values, and data types.
-~~
+```
 SELECT * 
 FROM sales 
 LIMIT 5;
-~~
+```
 
 | InvoiceID   | Branch| City    | Customertype | Gender | Productline | Unitprice | Quantity | Total  | Date    | Time | Payment | Grossincome | Rating|
 | ----------- | ------| ------- | ------------ | ------ | ----------- | --------- | -------- | -----  | ------- | ---- | ------- | ----------- | ------|
@@ -50,15 +50,15 @@ LIMIT 5;
 | 631-41-3108 | A     | Yangon   | Normal       | Male   | Home        | 46.33     | 7        | 340.53 | 3/3/2019|13:23 | Credit  | 16.2155     | 7.4   |
 | 123-19-1176 | A     | Yangon   | Member       | Male   | Health      | 58.22     | 8        | 489.05 | 1/8/2019|20:33 | Ewallet | 23.288      | 8.4   |
 | 373-73-7910 | A     | Yangon   | Member       | Male   | Sports      | 86.31     | 7        | 634.38 | 2/8/2019|10:37 | Ewallet | 30.2085     | 5.3   |
-
-SELECT COUNT(*) as total_records,<br />
-       COUNT(DISTINCT city) as unique_cities,<br />
-       COUNT(DISTINCT customertype) as unique_customers,<br />
-       COUNT(DISTINCT gender) as unique_genders,<br />
-       MIN(date) as min_date,<br />
-       MAX(date) as max_date<br />
+```
+SELECT COUNT(*) as total_records,
+       COUNT(DISTINCT city) as unique_cities,
+       COUNT(DISTINCT customertype) as unique_customers,
+       COUNT(DISTINCT gender) as unique_genders,
+       MIN(date) as min_date,
+       MAX(date) as max_date
 FROM sales;
-
+```
 | total_records | unique_cities | unique_customers | unique_genders | min_date | max_date|
 | ------------- | ------------- | ---------------- | -------------- | -------- | ------- |
 | 1000          | 3             | 2                | 2              | 1/1/2019 | 3/9/2019|
