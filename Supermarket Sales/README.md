@@ -1,4 +1,4 @@
-# Project 1: Supermarket sales
+# Project 1: Supermarket sales:
 
 This project aims to analyze supermarket sales data to gain insights into sales trends and customer behavior using SQL. SQL (Structured Query Language) is a powerful tool for managing and querying large datasets, making it an ideal method for analyzing data.
 
@@ -67,11 +67,12 @@ FROM sales;
 I used SQL queries to analyze the sales data and understand sales trends. For example, I could analyze the sales by city, customer type, gender, and date to identify which factors have the most impact on sales.
 
 **Total sales by city**<br />
-SELECT city, SUM(total) as total_sales<br />
-FROM sales<br />
-GROUP BY city<br />
+```
+SELECT city, SUM(total) as total_sales
+FROM sales
+GROUP BY city
 ORDER BY total_sales DESC;
-
+```
 | City          | Total_sales   | 
 | ------------- | ------------- | 
 | Naypyitaw     | 110568.7065   |
@@ -79,10 +80,11 @@ ORDER BY total_sales DESC;
 | Mandalay      | 106197.672    |
  
 **Average sales by customer type and gender**<br />
-SELECT customertype, gender, AVG(total) as avg_sales<br />
-FROM sales<br />
+```
+SELECT customertype, gender, AVG(total) as avg_sales
+FROM sales
 GROUP BY customertype, gender;
-
+```
 | Customertype  | Gender   | Avg_sales |
 | ------------- | -------- | --------- |
 | Memeber       | Female   | 337.728   |
@@ -91,11 +93,12 @@ GROUP BY customertype, gender;
 | Normal        | Male     | 305.048   |
  
 **Total sales by date**<br />
-SELECT date, SUM(total) as total_sales<br />
-FROM sales<br />
-GROUP BY date<br />
+```
+SELECT date, SUM(total) as total_sales
+FROM sales
+GROUP BY date
 LIMIT 5;
-
+```
 | Date          | Total_sales   | 
 | ------------- | ------------- | 
 | 1/1/2019      | 4745.181      |
@@ -108,10 +111,11 @@ LIMIT 5;
 I used SQL queries to analyze customer behavior and preferences. For example, I analyzed the sales by customer type, gender, and rating to understand which factors influence customer behavior.
 
 **Total sales by customer type and gender**<br />
-SELECT customertype, gender, SUM(total) as total_sales<br />
-FROM sales<br />
+```
+SELECT customertype, gender, SUM(total) as total_sales
+FROM sales
 GROUP BY customertype, gender;
-
+```
 | Customertype  | Gender   | Total_sales |
 | ------------- | -------- | ----------- |
 | Memeber       | Female   | 88146.9436  |
@@ -120,10 +124,11 @@ GROUP BY customertype, gender;
 | Normal        | Male     | 79007.3235  |
 
 **Average rating by customer type and gender**<br />
-SELECT customertype, gender, AVG(rating) as avg_rating<br />
-FROM sales<br />
+```
+SELECT customertype, gender, AVG(rating) as avg_rating
+FROM sales
 GROUP BY customertype, gender;
-
+```
 | Customertype  | Gender   | Avg_rating  |
 | ------------- | -------- | ----------- |
 | Memeber       | Female   | 6.94        |
@@ -135,11 +140,12 @@ GROUP BY customertype, gender;
 I used SQL queries to analyze the gross income from sales. For example, I can analyze the gross income by date, payment method, and customer type to understand which factors have the most impact on gross income.
 
 **Total gross income by date**<br />
-SELECT date, SUM(grossincome) as total_gross_income<br />
-FROM sales<br />
-GROUP BY date<br />
+```
+SELECT date, SUM(grossincome) as total_gross_income
+FROM sales
+GROUP BY date
 LIMIT 5;
-
+```
 | Date          | Total_gross_income | 
 | ------------- | ------------------ | 
 | 1/1/2019      | 225.961            |
@@ -149,10 +155,11 @@ LIMIT 5;
 | 1/13/2019     | 116.724            |
 
 **Total gross income by payment method**<br />
-SELECT payment, SUM(grossincome) as total_gross_income<br />
-FROM sales<br />
+```
+SELECT payment, SUM(grossincome) as total_gross_income
+FROM sales
 GROUP BY payment;
-
+```
 | Payment     | total_gross_income | 
 | ----------- | ------------------ | 
 | Cash        | 5343.17            | 
@@ -160,10 +167,11 @@ GROUP BY payment;
 | Ewallet     | 5237.77            | 
 
 **Total gross income by customer type**<br />
-SELECT customertype, SUM(grossincome) as total_gross_income<br />
-FROM sales<br />
+```
+SELECT customertype, SUM(grossincome) as total_gross_income
+FROM sales
 GROUP BY customertype;
-
+```
 | Customertype | total_gross_income | 
 | ------------ | ------------------ | 
 | Member       | 7820.164           | 
