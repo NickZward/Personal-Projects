@@ -239,7 +239,7 @@ This is how the visualization turned out. If you open the visualization through 
 
 Secondly I wanted to see where the restaurants were located who served the best rated food according to the data. Like before I had to concatenate the latitude and longitude first. I used this query to pull the relevant data out of the database.
 ```
-SELECT restaurant,  food, latitude||','||longitude as geo_location
+SELECT restaurant, food, latitude||','||longitude as geo_location
 FROM restaurant_tallinn
 ORDER BY food DESC
 LIMIT 15;
@@ -247,7 +247,12 @@ LIMIT 15;
 [Link to the visual]
 
 Lastly I wanted to see where the restaurants were located who were the most expensive according to the data. Like before I had to concatenate the latitude and longitude first. I used this query to pull the relevant data out of the database.
-
+```
+SELECT restaurant,  avg_bill, latitude||','||longitude as geo_location
+FROM restaurant_tallinn
+ORDER BY avg_bill DESC
+LIMIT 15;
+```
 [Link to the visual]
 
 
