@@ -260,6 +260,18 @@ LIMIT 15;
 
 [Link to the visual](https://lookerstudio.google.com/s/hnhCECtuftc)
 
+### Bonus
+As a bonus I wanted to look for the restaurant with the highest overall rating and the lowest average bill. I also added the adress of the restuarant and the website in order to look what their menu was like. I retrieved this information using the query below.
+```
+SELECT Restaurant, Address, detailsURL,Cuisine, Avg_Bill, (Atmosphere + Food + Service)/3 AS Overall_Rating
+FROM restaurant_tallinn
+ORDER BY Overall_Rating DESC, Avg_Bill ASC
+LIMIT 1;
+```
+| Restaurant | Adress                                        | Details_URL                              | Cuisine | AVG_Bill |Overall_rating|
+| -----------| --------------------------------------------- | -----------------------------------------| ------- | -------- | -------------|
+| Rea        | Raekoja plats 10, Tallinn, Harju County, 10123|https://www.vabalaud.ee/en/restaurant/rae/| european| 15.0     | 4.93
+
 
 
 
