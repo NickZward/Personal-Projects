@@ -8,7 +8,7 @@ Each project comes with a detailed README file that explains the problem stateme
 
 Thank you for visiting my repository, and I hope you find my projects insightful and informative!
 
-# Project 1: Supermarket sales.
+# Project 1: Supermarket sales:
 This project aims to analyze supermarket sales data to gain insights into sales trends and customer behavior using SQL. SQL (Structured Query Language) is a powerful tool for managing and querying large datasets, making it an ideal method for analyzing data.
 
 The analysis will involve extracting the relevant data from the supermarket sales CSV file, and querying it to identify key metrics such as sales volume, revenue, and customer demographics. We will then use SQL queries and aggregation functions to identify trends over time, identify patterns in customer behavior, and understand the factors that influence sales.
@@ -19,4 +19,6 @@ The project will be documented in a clear and concise manner, with detailed expl
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Supermarket%20Sales)
 
-# Project 2: Restaurants Tallinn.
+# Project 2: Restaurants Tallinn:
+
+[Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Restaurants%20Tallinn)
