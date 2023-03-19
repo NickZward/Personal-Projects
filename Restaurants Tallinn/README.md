@@ -244,7 +244,7 @@ FROM restaurant_tallinn
 ORDER BY food DESC
 LIMIT 15;
 ```
-[Link to the visual]
+[Link to the visual](https://lookerstudio.google.com/s/uoFzoEzKNlI)
 
 Lastly I wanted to see where the restaurants were located who were the most expensive according to the data. Like before I had to concatenate the latitude and longitude first. I used this query to pull the relevant data out of the database.
 ```
