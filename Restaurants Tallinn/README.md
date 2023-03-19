@@ -256,6 +256,8 @@ FROM restaurant_tallinn
 ORDER BY avg_bill DESC
 LIMIT 15;
 ```
+<img width="905" alt="Screenshot 2023-03-19 at 10 43 00 AM" src="https://user-images.githubusercontent.com/29818091/226166640-84c52407-6448-4cfb-9c46-6c9cd22615c0.png">
+
 [Link to the visual](https://lookerstudio.google.com/s/hnhCECtuftc)
 
 
