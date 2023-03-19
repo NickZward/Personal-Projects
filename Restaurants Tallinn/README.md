@@ -256,7 +256,7 @@ FROM restaurant_tallinn
 ORDER BY avg_bill DESC
 LIMIT 15;
 ```
-[Link to the visual]
+[Link to the visual](https://lookerstudio.google.com/s/hnhCECtuftc)
 
 
 
