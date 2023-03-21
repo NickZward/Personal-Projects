@@ -39,19 +39,31 @@ Before starting with the analysis, it's important to understand the data. We can
 
 Count the total number of different beers in the database:
 ```
-SELECT COUNT (DISTINCT beer)
+SELECT COUNT (DISTINCT beer) as Unique_beers
 FROM beer;
 ```
+| Unique_beers |
+| ------------ |
+| 9516         |
+
 Find the total number of breweries in the database:
 ```
-SELECT COUNT(DISTINCT brewery)  
+SELECT COUNT(DISTINCT brewery) as Unique_breweries  
 FROM beer;
 ```
+| Unique_beers |
+| ------------ |
+| 1646         |
+
 Find the total number of bars in the database:
 ```
-SELECT COUNT(DISTINCT bar)  
+SELECT COUNT(DISTINCT bar) as Unique_bars  
 FROM beer;
 ```
+| Unique_beers |
+| ------------ |
+| 1354         |
+
 Find the highest rated beer in the database:
 ```
 SELECT beer, AVG(rating) AS avg_rating 
@@ -59,6 +71,14 @@ FROM beer
 GROUP BY beer 
 ORDER BY avg_rating DESC;
 ```
+| Beer                                   | Avg_rating |
+| -------------------------------------- | ---------- |
+|Чоткий	                                 | 5.0        |
+|Спутник-1	                              | 5.0        |
+|Скрытый смысл [Raspberry Coconut]	      | 5.0        |
+|Символ	                                 | 5.0        |
+|Рычал, ссу	                             | 5.0        |
+
 Find the lowest rated beer in the database:
 ```
 SELECT beer, AVG(rating) AS avg_rating 
@@ -66,6 +86,14 @@ FROM beer
 GROUP BY beer 
 ORDER BY avg_rating ASC;
 ```
+| Beer                                   | Avg_rating |
+| -------------------------------------- | ---------- |
+|Oranjeboom Black Boats	                 | 0.25       |
+|Медный эль	                             | 0.25       |
+|СССР Тёмное	                            | 0.25       |
+|Khalzan (Халзан)	                       | 0.375      | 
+|Aigua de Moritz	                        | 0.5        |
+
 ## Step 2: Data Analysis
 After exploring the data, we can start analyzing it to find some insights:
 
@@ -74,8 +102,16 @@ Find the average rating for each beer:
 SELECT beer, AVG(rating) AS avg_rating 
 FROM beer 
 GROUP BY beer 
-ORDER BY avg_rating DESC;
+ORDER BY avg_rating;
 ```
+| Beer                                   | Avg_rating |
+| -------------------------------------- | ---------- |
+|Чоткий	                                 | 5.0        |
+|Спутник-1	                              | 5.0        |
+|Скрытый смысл [Raspberry Coconut]	      | 5.0        |
+|Символ	                                 | 5.0        |
+|Рычал, ссу	                             | 5.0        |
+
 Find the top-rated beers for each brewery:
 ```
 SELECT brewery, beer, AVG(rating) AS avg_rating
@@ -83,6 +119,14 @@ FROM beer
 GROUP BY brewery
 ORDER BY avg_rating DESC;
 ```
+|Brewery                                  | Beer                                    | Avg_rating |
+| --------------------------------------- | --------------------------------------- | ---------- |
+|Tori Jõesuu Siidri- Ja Veinitalu	        | Rhubarb Sparkling Wine	                 | 5.0        |
+|Theodor Schiøtz Brewing Company	         | Anarkist New England IPA	               | 5.0        |
+|Rudy's Kombucha	                         | Black Currant & Mint & Salt	            | 5.0        |
+|MAD PAN Handcrafted Projetcs	            | Scalifornia	                            | 5.0        |
+|Interactions And Transactions	           | E40	                                    | 5.0        |
+
 Find the top-rated beers for each bar:
 ```
 SELECT bar, beer, AVG(rating) AS avg_rating
@@ -90,6 +134,14 @@ FROM beer
 GROUP BY bar
 ORDER BY avg_rating DESC;
  ```
+|Bar                                      | Beer                                    | Avg_rating |
+| --------------------------------------- | --------------------------------------- | ---------- |
+| Systembolaget	                          | A Moment of Clarity	                    | 5.0        |
+| Schebetun	                              | Nagaranga	                              | 5.0        |
+| Pivnaja Territorija	                    | Pshenichnoe (Пшеничное)	                | 5.0        |
+| Palitra	                                | Ghost Ship	                             | 5.0        |
+| Ostmole	                                | Aktien Hefe-Weissbier	                  | 5.0        |
+ 
 Find the number of check-ins for each month:
 ```
 SELECT strftime('%Y-%m', date) AS month, COUNT(*) AS total_checkins 
@@ -97,9 +149,19 @@ FROM beer
 GROUP BY month 
 ORDER BY month;
 ```
+| Month           | Total_checkins |
+| --------------- | -------------- |
+|2013-01	         | 3              |
+|2013-04	         | 1              |
+|2014-08	         | 2              |
+|2014-09	         | 11             |
+|2014-10	         | 11             |
 
 ## Step 3: Data Visualization
 
-Create a bar chart showing the total number of check-ins for each month.
+I created a bar chart showing the total number of check-ins for each month.
+
+https://lookerstudio.google.com/s/uRpukCztArU
+
 Create a heatmap showing the density of check-ins across the city.
 Create a bubble map showing where the beers with an average rating of 5 are served.
