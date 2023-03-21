@@ -51,16 +51,16 @@ Find the total number of breweries in the database:
 SELECT COUNT(DISTINCT brewery) as Unique_breweries  
 FROM beer;
 ```
-| Unique_beers |
-| ------------ |
-| 1646         |
+| Unique_breweries |
+| ---------------- |
+| 1646             |
 
 Find the total number of bars in the database:
 ```
 SELECT COUNT(DISTINCT bar) as Unique_bars  
 FROM beer;
 ```
-| Unique_beers |
+| Unique_bars  |
 | ------------ |
 | 1354         |
 
@@ -168,7 +168,7 @@ ORDER BY month;
 ```
 <img width="905" alt="Screenshot 2023-03-21 at 8 51 18 PM" src="https://user-images.githubusercontent.com/29818091/226725824-4bb4e77a-aab6-4a3b-9faa-f706be6f1a37.png">
 
-[Link to the visual] (https://lookerstudio.google.com/s/uRpukCztArU)
+[Link to the visual](https://lookerstudio.google.com/s/uRpukCztArU)
 
 Create a heatmap showing the density of check-ins across the city.
 Create a bubble map showing where the beers with an average rating of 5 are served.
