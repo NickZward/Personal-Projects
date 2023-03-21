@@ -186,6 +186,6 @@ FROM beer
 GROUP BY beer 
 HAVING AVG(rating) = 5;
 ```
-
+<img width="903" alt="Screenshot 2023-03-21 at 9 43 49 PM" src="https://user-images.githubusercontent.com/29818091/226736277-e02a00ef-53aa-4a06-9656-b70237aae02b.png">
 
 [Link to the visual](https://lookerstudio.google.com/s/nAQalAh4GtQ)
