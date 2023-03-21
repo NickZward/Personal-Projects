@@ -170,5 +170,13 @@ ORDER BY month;
 
 [Link to the visual](https://lookerstudio.google.com/s/uRpukCztArU)
 
-Create a heatmap showing the density of check-ins across the city.
+I created a heatmap showing the density of check-ins across the city. I used this query to pull the relevant data out of the database.
+```
+SELECT date, latitude ||','||longitude as geo_location
+FROM beer ;
+```
+
+
+[Link to the visual](https://lookerstudio.google.com/s/hHnnsydIGGA)
+
 Create a bubble map showing where the beers with an average rating of 5 are served.
