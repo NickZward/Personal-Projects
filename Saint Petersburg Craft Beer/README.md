@@ -157,7 +157,7 @@ ORDER BY month;
 |2014-09	         | 11             |
 |2014-10	         | 11             |
 
-[Queries used]
+[Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Saint%20Petersburg%20Craft%20Beer/Queries.txt)
 
 ## Step 3: Data Visualization
 
