@@ -179,4 +179,13 @@ FROM beer ;
 
 [Link to the visual](https://lookerstudio.google.com/s/hHnnsydIGGA)
 
-Create a bubble map showing where the beers with an average rating of 5 are served.
+I created a bubble map showing where the beers with an average rating of 5 are served. I used this query to pull the relevant data out of the database.
+```
+SELECT beer , latitude ||','||longitude as geo_location
+FROM beer 
+GROUP BY beer 
+HAVING AVG(rating) = 5;
+```
+
+
+[Link to the visual](https://lookerstudio.google.com/s/nAQalAh4GtQ)
