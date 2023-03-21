@@ -159,7 +159,14 @@ ORDER BY month;
 
 ## Step 3: Data Visualization
 
-I created a bar chart showing the total number of check-ins for each month.
+I created a bar chart showing the total number of check-ins for each month. I used this query to pull the relevant data out of the database.
+```
+SELECT strftime('%Y-%m', date) AS month, COUNT(*) AS total_checkins 
+FROM beer 
+GROUP BY month 
+ORDER BY month;
+```
+
 
 [Link to the visual] (https://lookerstudio.google.com/s/uRpukCztArU)
 
