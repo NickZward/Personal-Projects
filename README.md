@@ -28,7 +28,7 @@ The project will involve several steps such as cleaning the data, creating table
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Restaurants%20Tallinn)
 
-# Project 3:
+# Project 3: Saint Petersburg Craft Beer:
 
 This project aims to analyze data related to different beers served in Saint Petersburg, Russia. By analyzing this data the following points could be achieved.
 
@@ -40,3 +40,5 @@ This project aims to analyze data related to different beers served in Saint Pet
 6 Identifying opportunities for growth: Analyzing the dataset can help breweries identify gaps in the market and areas where they can expand their offerings. For instance, if there are no popular breweries in a particular location, a brewery can consider opening a new location in that area.
 
 In summary, exploring this dataset can provide valuable insights for breweries and help them make data-driven decisions to improve their products, distribution, and overall performance.
+
+[Link to Project](
