@@ -157,6 +157,8 @@ ORDER BY month;
 |2014-09	         | 11             |
 |2014-10	         | 11             |
 
+[Queries used]
+
 ## Step 3: Data Visualization
 
 I created a bar chart showing the total number of check-ins for each month. I used this query to pull the relevant data out of the database.
