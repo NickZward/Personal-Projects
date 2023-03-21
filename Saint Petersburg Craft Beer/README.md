@@ -175,7 +175,7 @@ I created a heatmap showing the density of check-ins across the city. I used thi
 SELECT date, latitude ||','||longitude as geo_location
 FROM beer ;
 ```
-
+<img width="903" alt="Screenshot 2023-03-21 at 9 22 39 PM" src="https://user-images.githubusercontent.com/29818091/226732414-e92caed5-dca4-4ac3-ab96-a92325bcf46d.png">
 
 [Link to the visual](https://lookerstudio.google.com/s/hHnnsydIGGA)
 
