@@ -39,23 +39,67 @@ Before starting with the analysis, it's important to understand the data. We can
 
 Count the total number of different beers in the database:
 ```
-SELECT DISTINCT COUNT(beer)
+SELECT COUNT (DISTINCT beer)
+FROM beer;
+```
+Find the total number of breweries in the database:
+```
+SELECT COUNT(DISTINCT brewery)  
+FROM beer;
+```
+Find the total number of bars in the database:
+```
+SELECT COUNT(DISTINCT bar)  
 FROM beer;
 ```
 Find the highest rated beer in the database:
-Find which brewery made this beer:
-Find which bar serves this beer:
-Find the total number of breweries in the database:
-Find the total number of bars in the database:
-
+```
+SELECT beer, AVG(rating) AS avg_rating 
+FROM beer 
+GROUP BY beer 
+ORDER BY avg_rating DESC;
+```
+Find the lowest rated beer in the database:
+```
+SELECT beer, AVG(rating) AS avg_rating 
+FROM beer 
+GROUP BY beer 
+ORDER BY avg_rating ASC;
+```
 ## Step 2: Data Analysis
 After exploring the data, we can start analyzing it to find some insights:
+
 Find the average rating for each beer:
+```
+SELECT beer, AVG(rating) AS avg_rating 
+FROM beer 
+GROUP BY beer 
+ORDER BY avg_rating DESC;
+```
 Find the top-rated beers for each brewery:
+```
+SELECT brewery, beer, AVG(rating) AS avg_rating
+FROM beer 
+GROUP BY brewery
+ORDER BY avg_rating DESC;
+```
 Find the top-rated beers for each bar:
+```
+SELECT bar, beer, AVG(rating) AS avg_rating
+FROM beer 
+GROUP BY bar
+ORDER BY avg_rating DESC;
+ ```
+Find the number of check-ins for each month:
+```
+SELECT strftime('%Y-%m', date) AS month, COUNT(*) AS total_checkins 
+FROM beer 
+GROUP BY month 
+ORDER BY month;
+```
 
 ## Step 3: Data Visualization
 
 Create a bar chart showing the total number of check-ins for each month.
-Create a scatter plot showing the latitude and longitude of the bars where the beers were checked in.
 Create a heatmap showing the density of check-ins across the city.
+Create a bubble map showing where the beers with an average rating of 5 are served.
