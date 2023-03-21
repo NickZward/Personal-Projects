@@ -161,7 +161,7 @@ ORDER BY month;
 
 I created a bar chart showing the total number of check-ins for each month.
 
-https://lookerstudio.google.com/s/uRpukCztArU
+[Link to the visual] (https://lookerstudio.google.com/s/uRpukCztArU)
 
 Create a heatmap showing the density of check-ins across the city.
 Create a bubble map showing where the beers with an average rating of 5 are served.
