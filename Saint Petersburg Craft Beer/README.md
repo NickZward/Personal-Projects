@@ -33,3 +33,24 @@ Data was obtained from untappd, popular social network for beer geeks.
 |Longitude                     |Bar location longitude (geometric center of object by google geocoding api)  |
 
 [Data Used](https://www.kaggle.com/datasets/kondrasso/saint-petersburg-craft-beer?resource=download)
+
+## Step 1: Data Exploration
+Before starting with the analysis, it's important to understand the data. We can start by running some basic SQL queries to explore the data:
+Count the total number of different beers in the database:
+Find the highest rated beer in the database:
+Find which brewery made this beer:
+Find which bar serves this beer:
+Find the total number of breweries in the database:
+Find the total number of bars in the database:
+
+## Step 2: Data Analysis
+After exploring the data, we can start analyzing it to find some insights:
+Find the average rating for each beer:
+Find the top-rated beers for each brewery:
+Find the top-rated beers for each bar:
+
+## Step 3: Data Visualization
+
+Create a bar chart showing the total number of check-ins for each month.
+Create a scatter plot showing the latitude and longitude of the bars where the beers were checked in.
+Create a heatmap showing the density of check-ins across the city.
