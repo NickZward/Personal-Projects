@@ -35,8 +35,13 @@ Data was obtained from untappd, popular social network for beer geeks.
 [Data Used](https://www.kaggle.com/datasets/kondrasso/saint-petersburg-craft-beer?resource=download)
 
 ## Step 1: Data Exploration
-Before starting with the analysis, it's important to understand the data. We can start by running some basic SQL queries to explore the data:
+Before starting with the analysis, it's important to understand the data. We can start by running some basic SQL queries to explore the data.
+
 Count the total number of different beers in the database:
+```
+SELECT DISTINCT COUNT(beer)
+FROM beer;
+```
 Find the highest rated beer in the database:
 Find which brewery made this beer:
 Find which bar serves this beer:
