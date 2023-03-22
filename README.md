@@ -45,9 +45,24 @@ In summary, exploring this dataset can provide valuable insights for breweries a
 
 # Project 4: The Pizza Project:
 
+I got a task from a fictional person named Ben. Ben is opening a new pizzeria in his town. It won't be a dine in. Just a delivery and take out restaurant. He has given me a project brief. The first part is to design and build a relational database for his business that will allow him to store all the important data the business collects and generates. This will in turn help Ben monitor business performance in dashboards. The main areas of focus are orders, stock control and staff.
+
 During this project I wanted to do more than just write queries and extract data. This project includes creating a relational SQL databse, writing SQL queries to create the data sources for a dashboard & building 3 different dashboards using Google Looker.
 
 This dataset wil consist of an order data table, a customers table, an address table, an item table, an ingridient table, a recipe table, an inventory table, a shift table, a staff table and a rota table.
 
 The different tables and the relationship between them have been drawn using QuickDBD. After connecting all the tables, the relational SQL database will look like this:
+![Screenshot 2023-03-22 at 5 01 32 PM](https://user-images.githubusercontent.com/29818091/226965890-71248a15-746f-4247-baf7-a951c90cbf98.png)
 
+The first dashboard contains information about order activity. This dashboard contains information such as:<br />
+Total orders, total sales, total items, average order value, sales by category, top selling items, orders by hour, sales by hour, orders by address, orders by delivery/pick up.
+
+The second dashboard is all about inventory management. This will be a lot more complicated than the orders. Mainly because I needed to calculate how much. inventory will be used and then I have to identify inventory that needs reordering. I also want to calculate how much each pizza costs to make based on the cost of the ingredients so that I can keep an eye on pricing and P/L. This dashboard contains information such as: <br />
+Total quantity by ingredient, total cost of ingredients, calculated cost of pizza, percentage stock remaining by ingedient. 
+
+The third dashboard was by far the simpelest to make. I wanted to be able to monitor who was working on any given day or shift and what the overall staff costs were. This dashboard contains information such as:<br />
+Total staff cost, Total hours worked, Hours worked by staff member, Cost per staff member.
+
+In this SQL project, I learned how to design and build a relational database for a pizza delivery and take-out restaurant. The database stored important data related to orders, stock control, and staff. I learned how to create tables, set up relationships between them, and insert, update, and delete data. I also learned how to write SQL queries to retrieve specific data from the database and generate reports to help Ben monitor business performance. This project provided me with practical skills in database design and management, as well as proficiency in SQL programming.
+
+[Link to Project]
