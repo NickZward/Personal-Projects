@@ -42,3 +42,12 @@ This project aims to analyze data related to different beers served in Saint Pet
 In summary, exploring this dataset can provide valuable insights for breweries and help them make data-driven decisions to improve their products, distribution, and overall performance.
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Saint%20Petersburg%20Craft%20Beer)
+
+# Project 4: The Pizza Project:
+
+During this project I wanted to do more than just write queries and extract data. This project includes creating a relational SQL databse, writing SQL queries to create the data sources for a dashboard & building 3 different dashboards using Google Looker.
+
+This dataset wil consist of an order data table, a customers table, an address table, an item table, an ingridient table, a recipe table, an inventory table, a shift table, a staff table and a rota table.
+
+The different tables and the relationship between them have been drawn using QuickDBD. After connecting all the tables, the relational SQL database will look like this:
+
