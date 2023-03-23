@@ -92,3 +92,26 @@ FROM
 |Caesar dressing|740	       |3800	  |5	   |19000           |
 |Calamari       |1250	       |2500	  |3	   |7500            |
 |Capers	        |133	       |1000	  |2	   |2000            |
+
+```
+SELECT
+	r.date,
+	s.first_name,
+	s.last_name,
+	s.hourly_rate,
+	sh.start_time,
+	sh.end_time,
+	CAST((strftime('%s', sh.end_time) - strftime('%s', sh.start_time)) / 3600.0 AS REAL) AS hours_in_shift,
+	CAST((strftime('%s', sh.end_time) - strftime('%s', sh.start_time)) / 3600.0 AS REAL) * s.hourly_rate AS staff_cost 
+FROM
+	rota r
+	LEFT JOIN staff s ON r.staff_id = s.staff_id
+	LEFT JOIN shift sh ON r.shift_id = sh.shift_id;
+```
+|date     |first_name|last_name|hourly_rate|start_time|end_time|hours_in_shift|staff_cost|
+|---------|----------|---------|-----------|----------|--------|--------------|----------|
+|10/8/2022|Mindy     |Sloan    |17.25	   |10:30:00  |14:30:00|4.0	      |69.0      |   
+|10/8/2022|Luqman    |Cantu    |21.5	   |10:30:00  |14:30:00|4.0	      |86.0      |
+|10/8/2022|Lilly-Rose|Vaughn   |14.5       |10:30:00  |14:30:00|4.0	      |58.0      |
+|10/8/2022|Desiree   |Gardner  |14.5       |10:30:00  |14:30:00|4.0	      |58.0      |
+|10/8/2022|Mindy     |Sloan    |17.25	   |18:30:00  |23:00:00|4.5	      |77.625    | 
