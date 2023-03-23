@@ -4,7 +4,7 @@ During this project I wanted to do more than just write queries and extract data
 
 This dataset wil consist of an order data table, a customers table, an address table, an item table, an ingridient table, a recipe table, an inventory table, a shift table, a staff table and a rota table.
 
-The different tables and the relationship between them have been drawn using QuickDBD. After connecting all the tables, the relational SQL database will look like this: Screenshot 2023-03-22 at 5 01 32 PM
+The different tables and the relationship between them have been drawn using QuickDBD. After connecting all the tables, the relational SQL database will look like this:
 
 ```
 SELECT
