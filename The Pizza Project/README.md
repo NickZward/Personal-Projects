@@ -7,6 +7,8 @@ This dataset wil consist of an order data table, a customers table, an address t
 
 The different tables and the relationship between them have been drawn using QuickDBD. After connecting all the tables, the relational SQL database will look like this:
 
+![Screenshot 2023-03-22 at 5 01 32 PM](https://user-images.githubusercontent.com/29818091/226965890-71248a15-746f-4247-baf7-a951c90cbf98.png)
+
 ```
 SELECT
 	o.order_id,
