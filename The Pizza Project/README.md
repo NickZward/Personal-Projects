@@ -39,6 +39,9 @@ FROM
 |111	   |16	      |1	     |Pizza	  |Pizza Diavola (hot) Reg     |10/08/2022|	56 Concord Road |NULL            |Manchester	 |6042	          |1       |
 |112	   |19	      |3	     |Pizza	  |Pizza Quattro Formaggi Large|10/08/2022|	82 Lookout Drive|NULL            |Manchester	 |6040	          |0       |
 
+## Inventory Management:
+The second dashboard is all about inventory management. This will be a lot more complicated than the orders. Mainly because I needed to calculate how much inventory will be used and then I have to identify inventory that needs reordering. I also want to calculate how much each pizza costs to make based on the cost of the ingredients so that I can keep an eye on pricing and P/L. This dashboard contains information such as:
+Total quantity by ingredient, total cost of ingredients, calculated cost of pizza, percentage stock remaining by ingedient. In order to extract the information needed for this dashboard I used this query:
 ```
 SELECT
 	s1.item_name AS item_name,
@@ -108,6 +111,10 @@ FROM
 |Capers	        |133	       |1000	  |2	   |2000            |
 
 ```
+## Staff:
+The third dashboard was by far the simpelest to make. I wanted to be able to monitor who was working on any given day or shift and what the overall staff costs were. This dashboard contains information such as:
+Total staff cost, Total hours worked, Hours worked by staff member, Cost per staff member.
+
 SELECT
 	r.date,
 	s.first_name,
@@ -129,3 +136,5 @@ FROM
 |10/8/2022|Lilly-Rose|Vaughn   |14.5       |10:30:00  |14:30:00|4.0	      |58.0      |
 |10/8/2022|Desiree   |Gardner  |14.5       |10:30:00  |14:30:00|4.0	      |58.0      |
 |10/8/2022|Mindy     |Sloan    |17.25	   |18:30:00  |23:00:00|4.5	      |77.625    | 
+
+In this SQL project, I learned how to design and build a relational database for a pizza delivery and take-out restaurant. The database stored important data related to orders, stock control, and staff. I learned how to create tables, set up relationships between them, and insert, update, and delete data. I also learned how to write SQL queries to retrieve specific data from the database and generate reports to help Ben monitor business performance. This project provided me with practical skills in database design and management, as well as proficiency in SQL programming.
