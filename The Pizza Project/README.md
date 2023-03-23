@@ -1,3 +1,4 @@
+# Project 4: The Pizza Project:
 I got a task from a fictional person named Ben. Ben is opening a new pizzeria in his town. It won't be a dine in. Just a delivery and take out restaurant. He has given me a project brief. The first part is to design and build a relational database for his business that will allow him to store all the important data the business collects and generates. This will in turn help Ben monitor business performance in dashboards. The main areas of focus are orders, stock control and staff.
 
 During this project I wanted to do more than just write queries and extract data. This project includes creating a relational SQL databse, writing SQL queries to create the data sources for a dashboard & building 3 different dashboards using Google Looker.
