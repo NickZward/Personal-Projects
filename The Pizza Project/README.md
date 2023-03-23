@@ -9,6 +9,10 @@ The different tables and the relationship between them have been drawn using Qui
 
 ![Screenshot 2023-03-22 at 5 01 32 PM](https://user-images.githubusercontent.com/29818091/226965890-71248a15-746f-4247-baf7-a951c90cbf98.png)
 
+## Order Activity:
+The first dashboard contains information about order activity. This dashboard contains information such as:
+Total orders, total sales, total items, average order value, sales by category, top selling items, orders by hour, sales by hour, orders by address, orders by delivery/pick up. In order to extract the information needed for this dashboard I used this query:
+
 ```
 SELECT
 	o.order_id,
