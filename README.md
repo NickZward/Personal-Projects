@@ -11,22 +11,28 @@ Each project in this repository is accompanied by a detailed README file. This f
 Thank you for visiting my repository, and I hope you find my projects insightful and informative!
 
 # Project 1: Supermarket sales:
-This project aims to analyze supermarket sales data to gain insights into sales trends and customer behavior using SQL. SQL (Structured Query Language) is a powerful tool for managing and querying large datasets, making it an ideal method for analyzing data.
+This project utilizes SQL to analyze supermarket sales data in order to gain insights into sales trends and customer behavior.
 
-The analysis will involve extracting the relevant data from the supermarket sales CSV file, and querying it to identify key metrics such as sales volume, revenue, and customer demographics. We will then use SQL queries and aggregation functions to identify trends over time, identify patterns in customer behavior, and understand the factors that influence sales.
+SQL (Structured Query Language) is a powerful tool for managing and querying large datasets, making it an ideal method for analyzing data. With this project, we will extract relevant data from a supermarket sales CSV file and use SQL queries and aggregation functions to identify key metrics such as sales volume, revenue, and customer demographics.
 
-By using SQL, we can efficiently query and analyze large datasets, which is essential for gaining meaningful insights into sales trends and customer behavior. Additionally, using SQL allows for easy replication of the analysis, making it a valuable tool for businesses of all sizes.
+Using SQL to analyze the data allows for efficient querying and analysis of large datasets, which is essential for gaining meaningful insights into sales trends and customer behavior. This makes SQL a valuable tool for businesses of all sizes.
 
-The project will be documented in a clear and concise manner, with detailed explanations of the SQL queries used and the insights gained. This will allow for easy replication of the analysis and help others to understand the value of using SQL for analyzing sales data.
+Throughout this project, I will document the analysis in a clear and concise manner, with detailed explanations of the SQL queries used and the insights gained. This will not only allow for easy replication of the analysis but also provide a better understanding of the value of using SQL for analyzing sales data.
+
+In summary, this project showcases my proficiency in SQL and my ability to use it as a powerful tool to analyze data and gain valuable insights.
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Supermarket%20Sales)
 
 # Project 2: Restaurants Tallinn:
-The project aims to analyze data related to restaurants in Tallinn, Estonia. The dataset includes several columns such as Restaurant name, Address, Cuisine type, Average bill, Atmosphere, Food quality, Service rating, and Geographical coordinates (latitude and longitude).
+This project showcases my skills and expertise in SQL. The project aims to analyze data related to restaurants in Tallinn, Estonia, which includes various columns such as restaurant name, address, cuisine type, average bill, atmosphere, food quality, service rating, and geographical coordinates.
 
-The analysis will focus on exploring various aspects of the restaurant industry in Tallinn, such as popular cuisine types, average bills, customer satisfaction ratings, and more. The data will be extracted, transformed, and loaded into the relational database management system called MySQL.
+The analysis will focus on exploring various aspects of the restaurant industry in Tallinn, such as popular cuisine types, average bills, customer satisfaction ratings, and more. To achieve this, I will extract, transform, and load the data into MySQL, a powerful relational database management system.
 
-The project will involve several steps such as cleaning the data, creating tables, running queries, and visualizing the results using tools such as Tableau or Power BI. The final report will present insights and recommendations based on the analysis, which can help restaurant owners, food enthusiasts, and tourists make informed decisions.
+The project involves several steps, including data cleaning, table creation, query execution, and result visualization using tools like Tableau or Power BI. Through this project, I'll showcase my proficiency in SQL, demonstrating my ability to navigate complex datasets and extract meaningful insights from them.
+
+The final report will present valuable insights and recommendations based on the analysis, which can help restaurant owners, food enthusiasts, and tourists make informed decisions. I am confident that this project will showcase my expertise in SQL and highlight my ability to derive actionable insights from data.
+
+In summary, this project demonstrates my ability to leverage SQL for data analysis and showcases my skills in transforming complex data into actionable insights. I look forward to the opportunity to discuss my expertise in SQL and how it can contribute to your organization.
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Restaurants%20Tallinn)
 
