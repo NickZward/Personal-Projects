@@ -138,3 +138,5 @@ FROM
 |10/8/2022|Mindy     |Sloan    |17.25	   |18:30:00  |23:00:00|4.5	      |77.625    | 
 
 In this SQL project, I learned how to design and build a relational database for a pizza delivery and take-out restaurant. The database stored important data related to orders, stock control, and staff. I learned how to create tables, set up relationships between them, and insert, update, and delete data. I also learned how to write SQL queries to retrieve specific data from the database and generate reports to help Ben monitor business performance. This project provided me with practical skills in database design and management, as well as proficiency in SQL programming.
+
+[Link to dashboard](https://lookerstudio.google.com/s/io2YMLtATEM)
