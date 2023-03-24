@@ -110,11 +110,11 @@ FROM
 |Calamari       |1250	       |2500	  |3	   |7500            |
 |Capers	        |133	       |1000	  |2	   |2000            |
 
-```
+
 ## Staff:
 The third dashboard was by far the simpelest to make. I wanted to be able to monitor who was working on any given day or shift and what the overall staff costs were. This dashboard contains information such as:
 Total staff cost, Total hours worked, Hours worked by staff member, Cost per staff member.
-
+```
 SELECT
 	r.date,
 	s.first_name,
