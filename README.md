@@ -1,10 +1,12 @@
 # Personal-Projects
 
-Welcome to my personal project repository! As an aspiring data analyst, I am constantly working on projects that showcase my skills and knowledge in the field. This repository is a collection of some of my best projects that demonstrate my abilities in data analysis & visualization.
+Hello and welcome to my personal project repository!
 
-Some of the projects you'll find here include exploratory data analysis of real-world datasets and data visualization using tools like PowerBI & tableau. I have also included some projects that demonstrate my proficiency in SQL.
+As an aspiring data analyst, I am continuously working on projects that showcase my skills and knowledge in the field. This repository serves as a collection of some of my best projects that demonstrate my abilities in data analysis and visualization.
 
-Each project comes with a detailed README file that explains the problem statement, the data used, the analysis methodology, and the results obtained. Feel free to explore the code and documentation, and please let me know if you have any feedback or suggestions.
+You'll find a variety of projects here, including exploratory data analysis of real-world datasets and data visualization using tools like PowerBI and Tableau. Additionally, I have included some projects that demonstrate my proficiency in SQL.
+
+Each project in this repository is accompanied by a detailed README file. This file explains the problem statement, the data used, the analysis methodology, and the results obtained. I encourage you to explore the code and documentation, and please don't hesitate to share your feedback or suggestions.
 
 Thank you for visiting my repository, and I hope you find my projects insightful and informative!
 
