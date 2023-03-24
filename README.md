@@ -32,7 +32,7 @@ The project involves several steps, including data cleaning, table creation, que
 
 The final report will present valuable insights and recommendations based on the analysis, which can help restaurant owners, food enthusiasts, and tourists make informed decisions. I am confident that this project will showcase my expertise in SQL and highlight my ability to derive actionable insights from data.
 
-In summary, this project demonstrates my ability to leverage SQL for data analysis and showcases my skills in transforming complex data into actionable insights. I look forward to the opportunity to discuss my expertise in SQL and how it can contribute to your organization.
+In summary, this project demonstrates my ability to leverage SQL for data analysis and showcases my skills in transforming complex data into actionable insights. 
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Restaurants%20Tallinn)
 
