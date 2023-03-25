@@ -39,7 +39,7 @@ FROM
 ![Screenshot 2023-03-24 at 10 51 15 PM](https://user-images.githubusercontent.com/29818091/227715330-41088c54-cad8-4b54-a46c-e4cf2d259f34.png)
 
 ## Inventory Management:
-The second dashboard was more complex, involving inventory management, where I needed to calculate inventory usage and identify which items needed reordering. I also calculated the cost of each pizza based on the cost of ingredients, enabling me to monitor pricing and profits. In order to extract the information needed for this dashboard I used this query: 
+The second dashboard was more complex, involving inventory management, where I needed to calculate inventory usage and identify which items needed reordering. I also calculated the cost of each pizza based on the cost of ingredients, enabling me to monitor pricing and profits. I added some extra conditional formatting to see which items are in need of some restocking. In order to extract the information needed for this dashboard I used this query: 
 
 ```
 SELECT
