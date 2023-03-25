@@ -72,6 +72,7 @@ The second dashboard was more complex, involving inventory management, where I n
 ![Screenshot 2023-03-24 at 10 51 26 PM](https://user-images.githubusercontent.com/29818091/227715401-f3351551-292e-4ffe-bc29-de67b35c263d.png)
 
 The third and final dashboard was relatively simple, focusing on staff management and costs.
+![Screenshot 2023-03-24 at 10 51 38 PM](https://user-images.githubusercontent.com/29818091/227715429-cfa864fe-0479-4e11-a6dd-1591899dc2b3.png)
 
 Throughout the project, my SQL and dashboarding skills were put to the test. I had to create a relational database with multiple tables and set up relationships between them, ensuring data integrity and accuracy. I also had to write SQL queries to extract and manipulate data, as well as create visually appealing and informative dashboards to present this data in a clear and concise manner. Overall, this project provided me with valuable experience in database design and management, SQL programming, and dashboarding, which I can apply to future projects and career opportunities.
 
