@@ -103,7 +103,7 @@ WHERE avg_bill BETWEEN 5 AND  15;
 | Kivi Paber Kaarid        | fusion                         | 12        |
 | KARBES Kitchen & Bar     | nordic                         | 12        |
 
-**Which are the top 10 restaurants with the highest average bill amount/**<br />
+**Which are the top 10 restaurants with the highest average bill amount**<br />
 ```
 SELECT Restaurant, AVG_bill
 FROM restaurant_tallinn
