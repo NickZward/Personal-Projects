@@ -112,8 +112,8 @@ FROM
 ![Screenshot 2023-03-24 at 10 51 26 PM](https://user-images.githubusercontent.com/29818091/227715401-f3351551-292e-4ffe-bc29-de67b35c263d.png) 
 
 ## Staff:
-The third dashboard was by far the simpelest to make. I wanted to be able to monitor who was working on any given day or shift and what the overall staff costs were. This dashboard contains information such as:
-Total staff cost, Total hours worked, Hours worked by staff member, Cost per staff member.
+The third and final dashboard was relatively simple, focusing on staff management and costs. I also added a slider where the user van adjust the date and see which employee is available at any chosen week. In order to extract the information needed for this dashboard I used this query: 
+
 ```
 SELECT
 	r.date,
@@ -137,6 +137,9 @@ FROM
 |10/8/2022|Desiree   |Gardner  |14.5       |10:30:00  |14:30:00|4.0	      |58.0      |
 |10/8/2022|Mindy     |Sloan    |17.25	   |18:30:00  |23:00:00|4.5	      |77.625    | 
 
+![Screenshot 2023-03-25 at 12 44 24 PM](https://user-images.githubusercontent.com/29818091/227715590-282f8623-9bcf-4785-9f3b-6341e21cdfa9.png)
+
 Throughout the project, my SQL and dashboarding skills were put to the test. I had to create a relational database with multiple tables and set up relationships between them, ensuring data integrity and accuracy. I also had to write SQL queries to extract and manipulate data, as well as create visually appealing and informative dashboards to present this data in a clear and concise manner. Overall, this project provided me with valuable experience in database design and management, SQL programming, and dashboarding, which I can apply to future projects and career opportunities.
 
 [Link to dashboard](https://lookerstudio.google.com/s/io2YMLtATEM)
+[Queries used](
