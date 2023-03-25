@@ -58,24 +58,19 @@ In conclusion, exploring this dataset using my SQL skills can provide valuable i
 
 # Project 4: The Pizza Project:
 
-I got a task from a fictional person named Ben. Ben is opening a new pizzeria in his town. It won't be a dine in. Just a delivery and take out restaurant. He has given me a project brief. The first part is to design and build a relational database for his business that will allow him to store all the important data the business collects and generates. This will in turn help Ben monitor business performance in dashboards. The main areas of focus are orders, stock control and staff.
+As a data analyst, I was approached by a client named Ben who is planning to start a new pizza delivery and take-out restaurant in his town. He requested me to design and build a relational database that will enable him to store and manage all the critical data related to his business operations. The objective of the project is to help Ben monitor the performance of his business through insightful dashboards. The key areas of focus for the database are orders, stock control, and staff management. The database will serve as a valuable tool for Ben to make data-driven decisions and ensure the success of his business.
 
-During this project I wanted to do more than just write queries and extract data. This project includes creating a relational SQL databse, writing SQL queries to create the data sources for a dashboard & building 3 different dashboards using Google Looker.
-
-This dataset wil consist of an order data table, a customers table, an address table, an item table, an ingridient table, a recipe table, an inventory table, a shift table, a staff table and a rota table.
+As part of the project, I went beyond just writing queries and extracting data. I also created three different dashboards using Google Looker, which allowed me to visualize and present data in a user-friendly way.
 
 The different tables and the relationship between them have been drawn using QuickDBD. After connecting all the tables, the relational SQL database will look like this:
 ![Screenshot 2023-03-22 at 5 01 32 PM](https://user-images.githubusercontent.com/29818091/226965890-71248a15-746f-4247-baf7-a951c90cbf98.png)
 
-The first dashboard contains information about order activity. This dashboard contains information such as:<br />
-Total orders, total sales, total items, average order value, sales by category, top selling items, orders by hour, sales by hour, orders by address, orders by delivery/pick up.
+he first dashboard focused on order activity, providing valuable insights into sales trends, top-selling items, and customer preferences. 
 
-The second dashboard is all about inventory management. This will be a lot more complicated than the orders. Mainly because I needed to calculate how much. inventory will be used and then I have to identify inventory that needs reordering. I also want to calculate how much each pizza costs to make based on the cost of the ingredients so that I can keep an eye on pricing and P/L. This dashboard contains information such as: <br />
-Total quantity by ingredient, total cost of ingredients, calculated cost of pizza, percentage stock remaining by ingedient. 
+The second dashboard was more complex, involving inventory management, where I needed to calculate inventory usage and identify which items needed reordering. I also calculated the cost of each pizza based on the cost of ingredients, enabling me to monitor pricing and profits. 
 
-The third dashboard was by far the simpelest to make. I wanted to be able to monitor who was working on any given day or shift and what the overall staff costs were. This dashboard contains information such as:<br />
-Total staff cost, Total hours worked, Hours worked by staff member, Cost per staff member.
+The third and final dashboard was relatively simple, focusing on staff management and costs.
 
-In this SQL project, I learned how to design and build a relational database for a pizza delivery and take-out restaurant. The database stored important data related to orders, stock control, and staff. I learned how to create tables, set up relationships between them, and insert, update, and delete data. I also learned how to write SQL queries to retrieve specific data from the database and generate reports to help Ben monitor business performance. This project provided me with practical skills in database design and management, as well as proficiency in SQL programming.
+Throughout the project, my SQL and dashboarding skills were put to the test. I had to create a relational database with multiple tables and set up relationships between them, ensuring data integrity and accuracy. I also had to write SQL queries to extract and manipulate data, as well as create visually appealing and informative dashboards to present this data in a clear and concise manner. Overall, this project provided me with valuable experience in database design and management, SQL programming, and dashboarding, which I can apply to future projects and career opportunities.
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/blob/main/The%20Pizza%20Project/README.md)
