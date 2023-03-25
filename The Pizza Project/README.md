@@ -142,4 +142,5 @@ FROM
 Throughout the project, my SQL and dashboarding skills were put to the test. I had to create a relational database with multiple tables and set up relationships between them, ensuring data integrity and accuracy. I also had to write SQL queries to extract and manipulate data, as well as create visually appealing and informative dashboards to present this data in a clear and concise manner. Overall, this project provided me with valuable experience in database design and management, SQL programming, and dashboarding, which I can apply to future projects and career opportunities.
 
 [Link to dashboard](https://lookerstudio.google.com/s/io2YMLtATEM)
+
 [Queries used](https://github.com/NickZward/Personal-Projects/blob/main/The%20Pizza%20Project/Queries.txt)
