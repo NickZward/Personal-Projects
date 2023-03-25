@@ -1,9 +1,7 @@
 # Project 4: The Pizza Project:
-I got a task from a fictional person named Ben. Ben is opening a new pizzeria in his town. It won't be a dine in. Just a delivery and take out restaurant. He has given me a project brief. The first part is to design and build a relational database for his business that will allow him to store all the important data the business collects and generates. This will in turn help Ben monitor business performance in dashboards. The main areas of focus are orders, stock control and staff.
+As a data analyst, I was approached by a client named Ben who is planning to start a new pizza delivery and take-out restaurant in his town. He requested me to design and build a relational database that will enable him to store and manage all the critical data related to his business operations. The objective of the project is to help Ben monitor the performance of his business through insightful dashboards. The key areas of focus for the database are orders, stock control, and staff management. The database will serve as a valuable tool for Ben to make data-driven decisions and ensure the success of his business.
 
-During this project I wanted to do more than just write queries and extract data. This project includes creating a relational SQL databse, writing SQL queries to create the data sources for a dashboard & building 3 different dashboards using Google Looker.
-
-This dataset wil consist of an order data table, a customers table, an address table, an item table, an ingridient table, a recipe table, an inventory table, a shift table, a staff table and a rota table.
+As part of the project, I went beyond just writing queries and extracting data. I also created three different dashboards using Google Looker, which allowed me to visualize and present data in a user-friendly way.
 
 The different tables and the relationship between them have been drawn using QuickDBD. After connecting all the tables, the relational SQL database will look like this:
 
