@@ -65,7 +65,7 @@ As part of the project, I went beyond just writing queries and extracting data. 
 The different tables and the relationship between them have been drawn using QuickDBD. After connecting all the tables, the relational SQL database will look like this:
 ![Screenshot 2023-03-22 at 5 01 32 PM](https://user-images.githubusercontent.com/29818091/226965890-71248a15-746f-4247-baf7-a951c90cbf98.png)
 
-he first dashboard focused on order activity, providing valuable insights into sales trends, top-selling items, and customer preferences. 
+The first dashboard focused on order activity, providing valuable insights into sales trends, top-selling items, and customer preferences. 
 
 The second dashboard was more complex, involving inventory management, where I needed to calculate inventory usage and identify which items needed reordering. I also calculated the cost of each pizza based on the cost of ingredients, enabling me to monitor pricing and profits. 
 
