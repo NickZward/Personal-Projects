@@ -190,6 +190,6 @@ GROUP BY customertype;
 | Member       | 7820.164           | 
 | Normal       | 7559.205           | 
 
+In summary, this project showcases my proficiency in SQL and my ability to use it as a powerful tool to analyze data and gain valuable insights.
+
 [Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Supermarket%20Sales/Queries.txt)
-
-
