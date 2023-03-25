@@ -1,12 +1,12 @@
 # Project 1: Supermarket sales:
 
-This project aims to analyze supermarket sales data to gain insights into sales trends and customer behavior using SQL. SQL (Structured Query Language) is a powerful tool for managing and querying large datasets, making it an ideal method for analyzing data.
+The objective of this project is to analyze the data of a supermarket's sales to obtain insights into sales trends and customer behavior by utilizing SQL (Structured Query Language). SQL is an effective tool for managing and querying large datasets, which makes it a suitable method for analyzing data.
 
-The analysis will involve extracting the relevant data from the supermarket sales CSV file, and querying it to identify key metrics such as sales volume, revenue, and customer demographics. We will then use SQL queries and aggregation functions to identify trends over time, identify patterns in customer behavior, and understand the factors that influence sales.
+The analysis process involves extracting the appropriate data from the supermarket sales CSV file and using queries to identify key metrics like sales volume, revenue, and customer demographics. Then, SQL queries and aggregation functions are used to determine trends over time, detect patterns in customer behavior, and understand the factors that influence sales.
 
-By using SQL, we can efficiently query and analyze large datasets, which is essential for gaining meaningful insights into sales trends and customer behavior. Additionally, using SQL allows for easy replication of the analysis, making it a valuable tool for businesses of all sizes.
+Using SQL facilitates efficient querying and analysis of large datasets, which is essential for obtaining meaningful insights into sales trends and customer behavior. Additionally, employing SQL makes it easy to replicate the analysis, making it a valuable tool for businesses of all sizes.
 
-The project will be documented in a clear and concise manner, with detailed explanations of the SQL queries used and the insights gained. This will allow for easy replication of the analysis and help others to understand the value of using SQL for analyzing sales data.
+The project will be documented in a clear and concise manner, with detailed explanations of the SQL queries used and the insights obtained. This will enable the easy replication of the analysis and help others understand the value of using SQL for sales data analysis.
 
 ## About the dataset:
 The growth of supermarkets in most populated cities are increasing and market competitions are also high. The dataset is one of the historical sales of a supermarket company which has recorded in 3 different branches for 3 months data.
@@ -34,9 +34,16 @@ The growth of supermarkets in most populated cities are increasing and market co
 [Data Used](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
 ## Objective: Analyzing the sales data to understand sales trends and customer behavior!
+Understanding sales trends and customer behavior by analyzing sales data can provide businesses with valuable insights to improve their sales performance, inventory management, pricing strategies, and identify opportunities for growth. By analyzing data, businesses can optimize their marketing strategies, forecast demand, plan inventory, and identify the most effective pricing points for different products. In short, analyzing sales data can help businesses make data-driven decisions that can improve their overall profitability and success.
 
 ### **Data Exploration:**<br /> 
-First, I explored the data to understand it's structure and relationships. I used SQL queries to extract basic information such as number of records, unique values, and data types.
+When analyzing a dataset, it's important to first explore the data to understand its structure and relationships. This is typically done by using SQL queries to extract basic information such as the number of records, unique values, and data types.
+
+For example, the number of records will give you an idea of how much data you're dealing with, while the unique values can help you identify any potential issues or anomalies in the data. The data types will help you understand the nature of the data, such as whether it's numerical or categorical, and whether any transformations may be needed to use it effectively.
+
+By exploring the data in this way, you can get a better understanding of the dataset and identify any issues or patterns that may need further 
+investigation. It can also help you determine the best methods to use when analyzing the data to extract meaningful insights.
+
 ```
 SELECT * 
 FROM sales 
@@ -64,7 +71,9 @@ FROM sales;
 | 1000          | 3             | 2                | 2              | 1/1/2019 | 3/9/2019|
 
 ### **Sales Analysis:** <br />
-I used SQL queries to analyze the sales data and understand sales trends. For example, I could analyze the sales by city, customer type, gender, and date to identify which factors have the most impact on sales.
+When analyzing sales data using SQL, there are a number of different queries and functions that can be used to gain insights into sales trends and customer behavior.
+
+One approach is to analyze the sales data by various factors such as city, customer type, gender, and date to identify which factors have the most impact on sales.
 
 **Total sales by city**<br />
 ```
@@ -108,7 +117,9 @@ LIMIT 5;
 | 1/13/2019     | 2451.204      |
 
 ### **Customer Analysis:** <br />
-I used SQL queries to analyze customer behavior and preferences. For example, I analyzed the sales by customer type, gender, and rating to understand which factors influence customer behavior.
+When analyzing customer behavior and preferences using SQL, there are various queries and functions that can be used to gain insights.
+
+One approach is to analyze the sales data by different customer attributes such as customer type, gender, and rating. This can help identify which factors have the most influence on customer behavior and preferences.
 
 **Total sales by customer type and gender**<br />
 ```
@@ -137,7 +148,9 @@ GROUP BY customertype, gender;
 | Normal        | Male     | 7.02        |
 
 ### **Gross Income Analysis:** <br />
-I used SQL queries to analyze the gross income from sales. For example, I can analyze the gross income by date, payment method, and customer type to understand which factors have the most impact on gross income.
+When analyzing gross income from sales using SQL, there are various queries and functions that can be used to gain insights.
+
+One approach is to analyze the gross income by different factors such as date, payment method, and customer type. This can help identify which factors have the most impact on gross income.
 
 **Total gross income by date**<br />
 ```
@@ -176,8 +189,6 @@ GROUP BY customertype;
 | ------------ | ------------------ | 
 | Member       | 7820.164           | 
 | Normal       | 7559.205           | 
-
-Overall, this project aims to showcase my SQL skills and ability to analyze and interpret data. I could use these queries to create interactive dashboards or visualizations to present my findings.
 
 [Queries used](https://github.com/NickZward/Personal-Projects/blob/main/Supermarket%20Sales/Queries.txt)
 
