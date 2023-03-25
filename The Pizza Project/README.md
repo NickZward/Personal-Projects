@@ -36,7 +36,7 @@ FROM
 |111	   |16	      |1	     |Pizza	  |Pizza Diavola (hot) Reg     |10/08/2022|	56 Concord Road |NULL            |Manchester	 |6042	          |1       |
 |112	   |19	      |3	     |Pizza	  |Pizza Quattro Formaggi Large|10/08/2022|	82 Lookout Drive|NULL            |Manchester	 |6040	          |0       |
 
-
+![Screenshot 2023-03-24 at 10 51 15 PM](https://user-images.githubusercontent.com/29818091/227715330-41088c54-cad8-4b54-a46c-e4cf2d259f34.png)
 
 ## Inventory Management:
 The second dashboard is all about inventory management. This will be a lot more complicated than the orders. Mainly because I needed to calculate how much inventory will be used and then I have to identify inventory that needs reordering. I also want to calculate how much each pizza costs to make based on the cost of the ingredients so that I can keep an eye on pricing and P/L. This dashboard contains information such as:
