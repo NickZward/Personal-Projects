@@ -53,6 +53,7 @@ Moreover, understanding customer preferences can help breweries improve their pr
 Finally, analyzing the dataset can help breweries identify opportunities for growth. By identifying gaps in the market and areas where they can expand their offerings, breweries can consider opening new locations or introducing new products.
 
 In conclusion, exploring this dataset using my SQL skills can provide valuable insights for breweries and help them make data-driven decisions to improve their products, distribution, and overall performance.
+
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Saint%20Petersburg%20Craft%20Beer)
 
 # Project 4: The Pizza Project:
