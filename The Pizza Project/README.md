@@ -137,6 +137,6 @@ FROM
 |10/8/2022|Desiree   |Gardner  |14.5       |10:30:00  |14:30:00|4.0	      |58.0      |
 |10/8/2022|Mindy     |Sloan    |17.25	   |18:30:00  |23:00:00|4.5	      |77.625    | 
 
-In this SQL project, I learned how to design and build a relational database for a pizza delivery and take-out restaurant. The database stored important data related to orders, stock control, and staff. I learned how to create tables, set up relationships between them, and insert, update, and delete data. I also learned how to write SQL queries to retrieve specific data from the database and generate reports to help Ben monitor business performance. This project provided me with practical skills in database design and management, as well as proficiency in SQL programming.
+Throughout the project, my SQL and dashboarding skills were put to the test. I had to create a relational database with multiple tables and set up relationships between them, ensuring data integrity and accuracy. I also had to write SQL queries to extract and manipulate data, as well as create visually appealing and informative dashboards to present this data in a clear and concise manner. Overall, this project provided me with valuable experience in database design and management, SQL programming, and dashboarding, which I can apply to future projects and career opportunities.
 
 [Link to dashboard](https://lookerstudio.google.com/s/io2YMLtATEM)
