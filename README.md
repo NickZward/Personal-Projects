@@ -38,17 +38,21 @@ In summary, this project demonstrates my ability to leverage SQL for data analys
 
 # Project 3: Saint Petersburg Craft Beer:
 
-This project aims to analyze data related to different beers served in Saint Petersburg, Russia. By analyzing this data the following points could be achieved.
+This project is focused on analyzing data related to different beers served in Saint Petersburg, Russia, and my SQL skills will come in handy. By delving into this data, we can achieve a number of objectives.
 
-1. Understanding beer preferences: Analyzing the dataset can help identify popular beer types, brands, and breweries. This information can be useful for breweries to understand customer preferences and develop new products.<br />
-2. Optimizing beer distribution: Knowing the location of popular bars can help breweries optimize their distribution network and ensure their products are available at the right places.<br />
-3. Identifying trends: By analyzing the ratings of different beers, breweries can identify trends and adjust their products accordingly. For instance, if there is a trend towards hoppy beers, breweries can create more of these to meet the demand.<br />
-4. Marketing and advertising: By analyzing the dataset, breweries can identify popular bars and locations and target their marketing and advertising efforts towards those areas.<br />
-5. Improving customer experience: Understanding customer preferences can help breweries improve their product offerings and provide a better customer experience. For example, if customers prefer lighter beers, breweries can offer more of these options.<br />
-6. Identifying opportunities for growth: Analyzing the dataset can help breweries identify gaps in the market and areas where they can expand their offerings. For instance, if there are no popular breweries in a particular location, a brewery can consider opening a new location in that area.
+Firstly, by analyzing the dataset, we can gain an understanding of the preferences of beer drinkers in Saint Petersburg. This can help us identify popular beer types, brands, and breweries, which will be valuable information for breweries looking to understand customer preferences and develop new products.
 
-In summary, exploring this dataset can provide valuable insights for breweries and help them make data-driven decisions to improve their products, distribution, and overall performance.
+Additionally, we can use this data to optimize the distribution of beer. By identifying the locations of popular bars and breweries, breweries can ensure that their products are available at the right places, thus improving their distribution network.
 
+Furthermore, we can identify trends by analyzing the ratings of different beers, which can help breweries adjust their products accordingly. For example, if there is a trend towards hoppy beers, breweries can create more of these to meet the demand.
+
+Marketing and advertising efforts can also be targeted towards popular bars and locations by analyzing the dataset. This will help breweries identify the areas where their products are most in demand and focus their marketing efforts there.
+
+Moreover, understanding customer preferences can help breweries improve their product offerings and provide a better customer experience. For example, if customers prefer lighter beers, breweries can offer more of these options.
+
+Finally, analyzing the dataset can help breweries identify opportunities for growth. By identifying gaps in the market and areas where they can expand their offerings, breweries can consider opening new locations or introducing new products.
+
+In conclusion, exploring this dataset using my SQL skills can provide valuable insights for breweries and help them make data-driven decisions to improve their products, distribution, and overall performance.
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Saint%20Petersburg%20Craft%20Beer)
 
 # Project 4: The Pizza Project:
