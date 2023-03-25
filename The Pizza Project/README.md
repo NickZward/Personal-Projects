@@ -8,8 +8,7 @@ The different tables and the relationship between them have been drawn using Qui
 ![Screenshot 2023-03-22 at 5 01 32 PM](https://user-images.githubusercontent.com/29818091/226965890-71248a15-746f-4247-baf7-a951c90cbf98.png)
 
 ## Order Activity:
-The first dashboard contains information about order activity. This dashboard contains information such as:
-Total orders, total sales, total items, average order value, sales by category, top selling items, orders by hour, sales by hour, orders by address, orders by delivery/pick up. In order to extract the information needed for this dashboard I used this query:
+The first dashboard focused on order activity, providing valuable insights into sales trends, top-selling items, and customer preferences. In order to extract the information needed for this dashboard I used this query:
 
 ```
 SELECT
@@ -36,6 +35,8 @@ FROM
 |111	   |12	      |1	     |Pizza	  |Pizza Margherita Reg	       |10/08/2022|	56 Concord Road |NULL            |Manchester	 |6042	          |1       |
 |111	   |16	      |1	     |Pizza	  |Pizza Diavola (hot) Reg     |10/08/2022|	56 Concord Road |NULL            |Manchester	 |6042	          |1       |
 |112	   |19	      |3	     |Pizza	  |Pizza Quattro Formaggi Large|10/08/2022|	82 Lookout Drive|NULL            |Manchester	 |6040	          |0       |
+
+
 
 ## Inventory Management:
 The second dashboard is all about inventory management. This will be a lot more complicated than the orders. Mainly because I needed to calculate how much inventory will be used and then I have to identify inventory that needs reordering. I also want to calculate how much each pizza costs to make based on the cost of the ingredients so that I can keep an eye on pricing and P/L. This dashboard contains information such as:
