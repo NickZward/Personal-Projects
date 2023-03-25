@@ -69,6 +69,7 @@ The first dashboard focused on order activity, providing valuable insights into 
 ![Screenshot 2023-03-24 at 10 51 15 PM](https://user-images.githubusercontent.com/29818091/227715330-41088c54-cad8-4b54-a46c-e4cf2d259f34.png)
 
 The second dashboard was more complex, involving inventory management, where I needed to calculate inventory usage and identify which items needed reordering. I also calculated the cost of each pizza based on the cost of ingredients, enabling me to monitor pricing and profits. 
+![Screenshot 2023-03-24 at 10 51 26 PM](https://user-images.githubusercontent.com/29818091/227715401-f3351551-292e-4ffe-bc29-de67b35c263d.png)
 
 The third and final dashboard was relatively simple, focusing on staff management and costs.
 
