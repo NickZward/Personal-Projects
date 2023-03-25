@@ -39,8 +39,8 @@ FROM
 ![Screenshot 2023-03-24 at 10 51 15 PM](https://user-images.githubusercontent.com/29818091/227715330-41088c54-cad8-4b54-a46c-e4cf2d259f34.png)
 
 ## Inventory Management:
-The second dashboard is all about inventory management. This will be a lot more complicated than the orders. Mainly because I needed to calculate how much inventory will be used and then I have to identify inventory that needs reordering. I also want to calculate how much each pizza costs to make based on the cost of the ingredients so that I can keep an eye on pricing and P/L. This dashboard contains information such as:
-Total quantity by ingredient, total cost of ingredients, calculated cost of pizza, percentage stock remaining by ingedient. In order to extract the information needed for this dashboard I used this query:
+The second dashboard was more complex, involving inventory management, where I needed to calculate inventory usage and identify which items needed reordering. I also calculated the cost of each pizza based on the cost of ingredients, enabling me to monitor pricing and profits. In order to extract the information needed for this dashboard I used this query: 
+
 ```
 SELECT
 	s1.item_name AS item_name,
@@ -109,6 +109,7 @@ FROM
 |Calamari       |1250	       |2500	  |3	   |7500            |
 |Capers	        |133	       |1000	  |2	   |2000            |
 
+![Screenshot 2023-03-24 at 10 51 26 PM](https://user-images.githubusercontent.com/29818091/227715401-f3351551-292e-4ffe-bc29-de67b35c263d.png) 
 
 ## Staff:
 The third dashboard was by far the simpelest to make. I wanted to be able to monitor who was working on any given day or shift and what the overall staff costs were. This dashboard contains information such as:
