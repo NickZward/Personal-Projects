@@ -1,3 +1,5 @@
+# Project 5: Covid 19 Vaccine Tracker:
+
 The COVID-19 pandemic has affected people all over the world, and one of the most important ways to combat it, is through vaccinations. To monitor the progress of the global vaccination program, I decided to make a dashboard using Tableau. The main goal of the dashboard was to showcase my Tableau skills and my ability to translate data into a comprehensive dashboard.
 
 The dashboard displays critical information on the vaccination program's progress worldwide. It provides a quick overview of the share of the world population that has not been vaccinated, partially vaccinated, and fully vaccinated. The dashboard includes a stacked bar chart that compares the number of people who are partially vaccinated to those who are fully vaccinated, providing an easy-to-understand visual representation of the data.
