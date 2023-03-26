@@ -12,3 +12,4 @@ In summary, the COVID vaccine tracker dashboard is an excellent tool for monitor
 <img width="1122" alt="Screenshot 2023-03-26 at 7 14 43 PM" src="https://user-images.githubusercontent.com/29818091/227792652-7c063f5e-0c7c-4d58-9d2b-6216654dbaba.png">
 <img width="1122" alt="Screenshot 2023-03-26 at 7 14 55 PM" src="https://user-images.githubusercontent.com/29818091/227792691-9bc90ffd-c4a5-41bf-8632-89e3980616d3.png">
 <img width="1119" alt="Screenshot 2023-03-26 at 7 15 06 PM" src="https://user-images.githubusercontent.com/29818091/227792721-bdb4cd8f-9938-4d94-abc6-012738891ad0.png">
+<img width="1122" alt="Screenshot 2023-03-26 at 7 15 16 PM" src="https://user-images.githubusercontent.com/29818091/227792757-766e272f-9ade-4c0a-9e43-a6d2a404d6f1.png">
