@@ -60,23 +60,9 @@ In conclusion, exploring this dataset using my SQL skills can provide valuable i
 
 As a data analyst, I was approached by a client named Ben who is planning to start a new pizza delivery and take-out restaurant in his town. He requested me to design and build a relational database that will enable him to store and manage all the critical data related to his business operations. The objective of the project is to help Ben monitor the performance of his business through insightful dashboards. The key areas of focus for the database are orders, stock control, and staff management. The database will serve as a valuable tool for Ben to make data-driven decisions and ensure the success of his business.
 
-As part of the project, I went beyond just writing queries and extracting data. I also created three different dashboards using Google Looker, which allowed me to visualize and present data in a user-friendly way.
+As part of the project, I went beyond just writing queries and extracting data. I also created three different dashboards using Google Looker, which allowed me to visualize and present data in a user-friendly way. The different tables and the relationship between them have been drawn using QuickDBD. 
 
-The different tables and the relationship between them have been drawn using QuickDBD. After connecting all the tables, the relational SQL database will look like this:
-
-![Screenshot 2023-03-22 at 5 01 32 PM](https://user-images.githubusercontent.com/29818091/226965890-71248a15-746f-4247-baf7-a951c90cbf98.png)
-
-The first dashboard focused on order activity, providing valuable insights into sales trends, top-selling items, and customer preferences. 
-
-![Screenshot 2023-03-24 at 10 51 15 PM](https://user-images.githubusercontent.com/29818091/227715330-41088c54-cad8-4b54-a46c-e4cf2d259f34.png)
-
-The second dashboard was more complex, involving inventory management, where I needed to calculate inventory usage and identify which items needed reordering. I also calculated the cost of each pizza based on the cost of ingredients, enabling me to monitor pricing and profits. 
-
-![Screenshot 2023-03-24 at 10 51 26 PM](https://user-images.githubusercontent.com/29818091/227715401-f3351551-292e-4ffe-bc29-de67b35c263d.png)
-
-The third and final dashboard was relatively simple, focusing on staff management and costs.
-
-![Screenshot 2023-03-25 at 12 44 24 PM](https://user-images.githubusercontent.com/29818091/227715590-282f8623-9bcf-4785-9f3b-6341e21cdfa9.png)
+The first dashboard focused on order activity, providing valuable insights into sales trends, top-selling items, and customer preferences. The second dashboard was more complex, involving inventory management, where I needed to calculate inventory usage and identify which items needed reordering. I also calculated the cost of each pizza based on the cost of ingredients, enabling me to monitor pricing and profits. The third and final dashboard was relatively simple, focusing on staff management and costs.
 
 Throughout the project, my SQL and dashboarding skills were put to the test. I had to create a relational database with multiple tables and set up relationships between them, ensuring data integrity and accuracy. I also had to write SQL queries to extract and manipulate data, as well as create visually appealing and informative dashboards to present this data in a clear and concise manner. Overall, this project provided me with valuable experience in database design and management, SQL programming, and dashboarding, which I can apply to future projects and career opportunities.
 
