@@ -79,4 +79,4 @@ Finally, the dashboard investigates the correlation between a country's GDP per 
 
 In summary, the COVID vaccine tracker dashboard is an excellent tool for monitoring the progress of the global vaccination program. It provides critical information to help track the effectiveness of the program and identify areas that need improvement. The dashboard's various features make it an interactive and user-friendly tool that can be useful for healthcare professionals, policymakers, and the general public.
 
-[Link to Project]
+[Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Covid%2019%20Vaccine%20Tracker)
