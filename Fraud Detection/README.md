@@ -131,7 +131,7 @@ fraud-detection/
 
 **Nick Zwart**  
 Fraud Data Analyst | ABN AMRO Bank  
-[LinkedIn](https://www.linkedin.com/in/nick-zwart/) · [GitHub](https://github.com/your-username)
+[LinkedIn](https://www.linkedin.com/in/nick-zwart/) · [GitHub](https://github.com/NickZward)
 
 ---
 
