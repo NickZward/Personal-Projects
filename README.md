@@ -82,6 +82,15 @@ In summary, the COVID vaccine tracker dashboard is an excellent tool for monitor
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Covid%2019%20Vaccine%20Tracker)
 
 # Project 6: Fraud Detection:
+This project focuses on detecting fraudulent credit card transactions using machine learning, applied to a real-world dataset of 284,807 transactions made by European cardholders. With only 0.17% of transactions being fraudulent, this project presented the classic challenge of working with highly imbalanced data, a problem that is very common in the payments industry.
+
+The analysis begins with an exploratory data phase, uncovering patterns in fraud behavior across transaction amounts, time of day, and anonymised payment features. A key insight from this phase is that fraudulent transactions peak during overnight hours and tend to cluster in lower amount ranges compared to legitimate transactions.
+
+To handle the class imbalance, undersampling techniques were applied to the training data, ensuring the model could learn meaningful fraud patterns rather than defaulting to predicting everything as legitimate. Two models were trained and compared: Logistic Regression as a baseline, and a Random Forest classifier as the main model. Given the nature of the problem, model evaluation focused on Precision, Recall, and AUC-PR rather than accuracy, a metric that would be misleading given the imbalance in the data.
+
+A particular highlight of this project is the threshold tuning analysis, which visualises the trade-off between catching more fraud and generating false alarms. This reflects a real business decision that fraud teams at financial institutions face daily: how to balance fraud prevention against unnecessary friction for legitimate customers.
+
+The project is accompanied by an interactive dashboard and a full write-up documenting the methodology and results.
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Fraud%20Detection)
 
