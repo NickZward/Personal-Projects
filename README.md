@@ -95,4 +95,4 @@ The project is accompanied by an interactive dashboard and a full write-up docum
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Fraud%20Detection)
 
-[Link to Dashboard](https://github.com/NickZward/Personal-Projects/blob/main/Fraud%20Detection/index.html)
+[Link to Dashboard](https://nickzward.github.io/Personal-Projects/Fraud%20Detection/)
