@@ -81,7 +81,7 @@ In summary, the COVID vaccine tracker dashboard is an excellent tool for monitor
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Covid%2019%20Vaccine%20Tracker)
 
-Project 6: Fraud Detection:
+# Project 6: Fraud Detection:
 
 [Link to Project](https://github.com/NickZward/Personal-Projects/tree/main/Fraud%20Detection)
 
