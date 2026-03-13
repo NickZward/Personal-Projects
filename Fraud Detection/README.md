@@ -1,6 +1,6 @@
 # 💳 Credit Card Fraud Detection
 
-A machine learning project to detect fraudulent payment transactions using real-world data — built to explore patterns, handle class imbalance, and evaluate models with metrics that actually matter in a payments context.
+A machine learning project to detect fraudulent payment transactions using real-world data, built to explore patterns, handle class imbalance, and evaluate models with metrics that actually matter in a payments context.
 
 ---
 
@@ -30,7 +30,7 @@ The dataset contains credit card transactions made by European cardholders in Se
 | Features | V1–V28 (PCA-anonymised), Amount, Time |
 | Target | `Class` (0 = legitimate, 1 = fraud) |
 
-> Note: Features V1–V28 are the result of PCA transformation to protect cardholder privacy — this mirrors how real payments data is often shared in industry.
+> Note: Features V1–V28 are the result of PCA transformation to protect cardholder privacy, this mirrors how real payments data is often shared in industry.
 
 **To download:**
 ```bash
@@ -77,7 +77,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 jupyter notebook fraud_detection.ipynb
 ```
 
-Run cells top to bottom. All outputs — charts, metrics, and model results — are generated inline.
+Run cells top to bottom. All outputs — charts, metrics, and model results are generated inline.
 
 ---
 
@@ -86,7 +86,7 @@ Run cells top to bottom. All outputs — charts, metrics, and model results — 
 ### Fraud patterns
 - Fraudulent transactions peak during **overnight hours**, when real-time monitoring is typically lower
 - Fraud amounts are **more concentrated in the €0–€200 range**, while legitimate transactions have more high-value outliers
-- Several PCA features (notably **V14, V4, V11**) show strongly different distributions between fraud and legitimate transactions — these become the most important predictors
+- Several PCA features (notably **V14, V4, V11**) show strongly different distributions between fraud and legitimate transactions, these become the most important predictors
 
 ### Model performance (test set)
 
@@ -98,7 +98,7 @@ Run cells top to bottom. All outputs — charts, metrics, and model results — 
 > Exact numbers will vary slightly due to random seeds. Random Forest significantly outperforms on PR-AUC, which matters most in imbalanced fraud data.
 
 ### Why accuracy is the wrong metric here
-A model predicting *every transaction as legitimate* achieves **99.83% accuracy** — and catches **zero fraud**. This project uses Precision, Recall, and AUC-PR instead, which actually reflect model usefulness in a fraud context.
+A model predicting *every transaction as legitimate* achieves **99.83% accuracy**, and catches **zero fraud**. This project uses Precision, Recall, and AUC-PR instead, which actually reflect model usefulness in a fraud context.
 
 ---
 
@@ -131,7 +131,7 @@ fraud-detection/
 
 - [ ] Try **XGBoost or LightGBM** — typically best-in-class for tabular fraud data
 - [ ] Implement **SMOTE** (synthetic oversampling) as an alternative to undersampling
-- [ ] Add **SHAP values** for model explainability — essential in regulated financial environments
+- [ ] Add **SHAP values** for model explainability, essential in regulated financial environments
 - [ ] Build a **Streamlit dashboard** to explore predictions interactively
 - [ ] Wrap the model in a **FastAPI endpoint** to simulate real-time transaction scoring
 
