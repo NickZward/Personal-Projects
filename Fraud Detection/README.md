@@ -127,16 +127,6 @@ fraud-detection/
 
 ---
 
-## 🔮 Potential Next Steps
-
-- [ ] Try **XGBoost or LightGBM** — typically best-in-class for tabular fraud data
-- [ ] Implement **SMOTE** (synthetic oversampling) as an alternative to undersampling
-- [ ] Add **SHAP values** for model explainability, essential in regulated financial environments
-- [ ] Build a **Streamlit dashboard** to explore predictions interactively
-- [ ] Wrap the model in a **FastAPI endpoint** to simulate real-time transaction scoring
-
----
-
 ## 👤 Author
 
 **Nick Zwart**  
